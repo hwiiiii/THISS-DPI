@@ -23,7 +23,7 @@ RISC-V Instruction Simulator
 
  	vi hello.c
  
-#### hello.c
+hello.c
  ***
  
 >	 	#include <stdio.h>
@@ -42,10 +42,11 @@ RISC-V Instruction Simulator
 ### 3. include "common.h"
 
  this header file is for :
- 	1. Passing commandline argument to program
- 	2. Marking end of program
+  1. Passing commandline argument to program
+  2. Marking end of program
  
  	 
+hello.c
  ***
  
 >	 	#include <stdio.h>
@@ -71,15 +72,15 @@ RISC-V Instruction Simulator
 
 ### 4. Makefile
 
-	1. vi Makefile
- 
+  1. Open Makefile
+
  	cd ..
  
-"" ""
-
  	vi Makefile
  
-	2. change TARGET to your testcode's name
+  2. change TARGET to your testcode's name
+
+Makefile
  
 >	 	TARGET = hello
 

@@ -10,7 +10,7 @@ RISC-V Instruction Simulator
 1. Install libelf library
 
 
-	 sudo apt-get install libelf-dev
+		sudo apt-get install libelf-dev
 
 
 ## Install
@@ -103,7 +103,7 @@ RISC-V Instruction Simulator
 
  2. run simulator
 
-	 ./bin/syiss ./testcode/app/program.bin
+		./bin/syiss ./testcode/app/program.bin
 
 or
 

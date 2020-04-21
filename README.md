@@ -15,37 +15,31 @@ RISC-V Instruction Simulator
 
 ## Tutorial
 
-###1. go to testcode directory
+### 1. go to testcode directory
 
  	cd ./testcode/testsrc
 
-###2. create your testcode
+### 2. create your testcode
 
  	vi hello.c
  
+#### hello.c
  ***
  
 >	 	#include <stdio.h>
 >	 
->	 
 >	 	int main()
 >	 
->	 
 >	 	{
->	 
 >	 		printf("Hello Sung Yeon!\n");
 >	 
->	 		
->	 
 >	 		return 0;
->	 
 >	 	}
- 
  
  ***
 
 
-###3. include "common.h"
+### 3. include "common.h"
 
  this header file is for :
  	1. Passing commandline argument to program
@@ -75,7 +69,7 @@ RISC-V Instruction Simulator
  
  ***
 
-###4. Makefile
+### 4. Makefile
 
 	1. vi Makefile
  
@@ -89,11 +83,11 @@ RISC-V Instruction Simulator
  
 >	 	TARGET = hello
 
-###5. compile
+### 5. compile
 
 	make
 
-###6. run simulator
+### 6. run simulator
 
 	cd ..
 

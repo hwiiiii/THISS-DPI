@@ -1,0 +1,1366 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-exit.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/crt0.o (exit)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/crt0.o (__libc_init_array)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+                              ./obj/common.o (malloc)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o) (_malloc_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/crt0.o (memset)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+                              ./obj/test.o (printf)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o) (_sbrk_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+                              ./obj/common.o (strcpy)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+                              ./obj/common.o (strlen)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o) (_vfprintf_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__swsetup_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__call_atexit.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-exit.o) (__call_exitprocs)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-atexit.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__call_atexit.o) (atexit)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (_fflush_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__sinit)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fini.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o) (_free_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o) (_fwalk)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (_ldtoa_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (_localeconv_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o) (__smakebuf_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (memchr)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o) (_Balloc)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o) (errno)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (frexp)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o) (sprintf)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o) (__sread)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (strncpy)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o) (_svfprintf_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__sprint_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o) (_write_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__atexit.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-atexit.o) (__register_exitproc)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o) (_calloc_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o) (_close_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o) (_fclose_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o) (_fputwc_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o) (_fstat_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o) (__sfvwrite_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o) (_isatty_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o) (__locale_mb_cur_max)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o) (_lseek_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o) (__ascii_mbtowc)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o) (memcpy)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o) (memmove)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o) (_read_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o) (_realloc_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o) (strcmp)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o) (__ssprint_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o) (__swbuf_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o) (_wcrtomb_r)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o) (__ascii_wctomb)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o) (_ctype_)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o) (_close)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_exit.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-exit.o) (_exit)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o) (_fstat)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o) (_isatty)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o) (_lseek)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o) (_read)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o) (_sbrk)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o) (_conv_stat)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o) (__errno)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__udivdi3)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__umoddi3)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o) (__divdf3)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o) (__muldf3)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__eqtf2)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__gttf2)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__lttf2)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__multf3)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__subtf3)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__fixtfsi)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__floatsitf)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__extenddftf2)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__trunctfdf2)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o) (__clz_tab)
+/opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                              /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o) (__clzsi2)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+__stdin             0x68              ./obj/retarget.o
+__stdout            0x68              ./obj/retarget.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/crt0.o
+LOAD /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+LOAD ./obj/test.o
+LOAD ./obj/retarget.o
+LOAD ./obj/common.o
+LOAD /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a
+START GROUP
+LOAD /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a
+LOAD /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a
+END GROUP
+LOAD /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a
+LOAD /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtend.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x10000))
+                0x0000000000010074                . = (SEGMENT_START ("text-segment", 0x10000) + SIZEOF_HEADERS)
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rela.dyn       0x0000000000010074        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000010074        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/crt0.o
+ .rela.text.startup
+                0x0000000000010074        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/crt0.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.rela.plt
+ *(.rela.plt)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt
+ *(.plt)
+
+.iplt
+ *(.iplt)
+
+.text           0x0000000000010074    0x141bc
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x0000000000010074       0x1c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__call_atexit.o)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000010090       0x4c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/crt0.o
+                0x0000000000010090                _start
+ .text          0x00000000000100dc       0xe0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+ .text          0x00000000000101bc       0x34 ./obj/test.o
+                0x00000000000101bc                main
+ .text          0x00000000000101f0       0xac ./obj/retarget.o
+                0x00000000000101f0                my_fputc
+                0x0000000000010230                _write
+ .text          0x000000000001029c      0x174 ./obj/common.o
+                0x000000000001029c                get_argv
+                0x00000000000103e8                end_main
+ .text          0x0000000000010410       0x30 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-exit.o)
+                0x0000000000010410                exit
+ .text          0x0000000000010440        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+ .text          0x0000000000010440       0x9c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+                0x0000000000010440                __libc_init_array
+ .text          0x00000000000104dc       0x18 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+                0x00000000000104dc                malloc
+                0x00000000000104e8                free
+ .text          0x00000000000104f4      0x7bc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                0x00000000000104f4                _malloc_r
+ .text          0x0000000000010cb0       0xdc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+                0x0000000000010cb0                memset
+ .text          0x0000000000010d8c        0x8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+                0x0000000000010d8c                __malloc_lock
+                0x0000000000010d90                __malloc_unlock
+ .text          0x0000000000010d94       0x94 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+                0x0000000000010d94                _printf_r
+                0x0000000000010dd8                printf
+ .text          0x0000000000010e28       0x5c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+                0x0000000000010e28                _sbrk_r
+ .text          0x0000000000010e84       0xb0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+                0x0000000000010e84                strcpy
+ .text          0x0000000000010f34       0x8c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+                0x0000000000010f34                strlen
+ .text          0x0000000000010fc0     0x2c2c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+                0x0000000000010fc0                _vfprintf_r
+                0x0000000000013b18                vfprintf
+ .text          0x0000000000013bec      0x164 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+                0x0000000000013bec                __swsetup_r
+ .text          0x0000000000013d50      0x118 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__call_atexit.o)
+                0x0000000000013d50                __call_exitprocs
+ .text          0x0000000000013e68       0x14 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-atexit.o)
+                0x0000000000013e68                atexit
+ .text          0x0000000000013e7c      0x2dc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+                0x0000000000013e7c                __sflush_r
+                0x00000000000140d8                _fflush_r
+                0x0000000000014138                fflush
+ .text          0x0000000000014158      0x35c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+                0x0000000000014160                _cleanup_r
+                0x00000000000142f8                __sfmoreglue
+                0x0000000000014364                __sfp
+                0x0000000000014464                _cleanup
+                0x0000000000014474                __sinit
+                0x0000000000014484                __sfp_lock_acquire
+                0x0000000000014488                __sfp_lock_release
+                0x000000000001448c                __sinit_lock_acquire
+                0x0000000000014490                __sinit_lock_release
+                0x0000000000014494                __fp_lock_all
+                0x00000000000144a4                __fp_unlock_all
+ .text          0x00000000000144b4       0x60 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fini.o)
+                0x00000000000144b4                __libc_fini_array
+ .text          0x0000000000014514      0x410 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+                0x0000000000014514                _malloc_trim_r
+                0x0000000000014634                _free_r
+ .text          0x0000000000014924      0x170 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+                0x0000000000014924                _fwalk
+                0x00000000000149d4                _fwalk_reent
+ .text          0x0000000000014a94     0x2b98 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+                0x00000000000162b4                _ldtoa_r
+                0x00000000000175c8                _ldcheck
+ .text          0x000000000001762c       0x18 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+                0x000000000001762c                __localeconv_l
+                0x0000000000017634                _localeconv_r
+                0x000000000001763c                localeconv
+ .text          0x0000000000017644      0x1f0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+                0x0000000000017644                __swhatbuf_r
+                0x0000000000017714                __smakebuf_r
+ .text          0x0000000000017834       0xdc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+                0x0000000000017834                memchr
+ .text          0x0000000000017910      0xffc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+                0x0000000000017910                _Balloc
+                0x00000000000179b8                _Bfree
+                0x00000000000179dc                __multadd
+                0x0000000000017b04                __s2b
+                0x0000000000017c10                __hi0bits
+                0x0000000000017c84                __lo0bits
+                0x0000000000017d3c                __i2b
+                0x0000000000017d70                __multiply
+                0x0000000000017f68                __pow5mult
+                0x00000000000180b0                __lshift
+                0x00000000000181fc                __mcmp
+                0x0000000000018254                __mdiff
+                0x0000000000018438                __ulp
+                0x0000000000018498                __b2d
+                0x00000000000185b0                __d2b
+                0x00000000000186f4                __ratio
+                0x0000000000018798                _mprec_log10
+                0x000000000001882c                __copybits
+                0x0000000000018894                __any_on
+ .text          0x000000000001890c      0x14c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+                0x000000000001890c                cleanup_glue
+                0x000000000001894c                _reclaim_reent
+ .text          0x0000000000018a58       0xac /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+                0x0000000000018a58                frexp
+ .text          0x0000000000018b04       0xe4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+                0x0000000000018b04                _sprintf_r
+                0x0000000000018b70                sprintf
+ .text          0x0000000000018be8      0x15c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+                0x0000000000018be8                __sread
+                0x0000000000018c44                __seofread
+                0x0000000000018c4c                __swrite
+                0x0000000000018cd4                __sseek
+                0x0000000000018d3c                __sclose
+ .text          0x0000000000018d44       0xcc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+                0x0000000000018d44                strncpy
+ .text          0x0000000000018e10     0x2b04 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+                0x0000000000018e10                _svfprintf_r
+ .text          0x000000000001b914     0x1494 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+                0x000000000001ba04                __sprint_r
+                0x000000000001ba1c                _vfiprintf_r
+                0x000000000001ccd4                vfiprintf
+ .text          0x000000000001cda8       0x68 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+                0x000000000001cda8                _write_r
+ .text          0x000000000001ce10       0x98 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__atexit.o)
+                0x000000000001ce10                __register_exitproc
+ .text          0x000000000001cea8       0xb0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+                0x000000000001cea8                _calloc_r
+ .text          0x000000000001cf58       0x5c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+                0x000000000001cf58                _close_r
+ .text          0x000000000001cfb4      0x11c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+                0x000000000001cfb4                _fclose_r
+                0x000000000001d0c4                fclose
+ .text          0x000000000001d0d0      0x1d8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+                0x000000000001d0d0                __fputwc
+                0x000000000001d1fc                _fputwc_r
+                0x000000000001d228                fputwc
+ .text          0x000000000001d2a8       0x64 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+                0x000000000001d2a8                _fstat_r
+ .text          0x000000000001d30c      0x4b0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+                0x000000000001d30c                __sfvwrite_r
+ .text          0x000000000001d7bc       0x5c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+                0x000000000001d7bc                _isatty_r
+ .text          0x000000000001d818       0x94 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+                0x000000000001d818                _setlocale_r
+                0x000000000001d894                __locale_mb_cur_max
+                0x000000000001d89c                setlocale
+ .text          0x000000000001d8ac       0x68 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+                0x000000000001d8ac                _lseek_r
+ .text          0x000000000001d914       0x70 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+                0x000000000001d914                _mbtowc_r
+                0x000000000001d91c                __ascii_mbtowc
+ .text          0x000000000001d984      0x11c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+                0x000000000001d984                memcpy
+ .text          0x000000000001daa0      0x120 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+                0x000000000001daa0                memmove
+ .text          0x000000000001dbc0       0x68 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+                0x000000000001dbc0                _read_r
+ .text          0x000000000001dc28      0x5d0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+                0x000000000001dc28                _realloc_r
+ .text          0x000000000001e1f8      0x17c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+                0x000000000001e1f8                strcmp
+ .text          0x000000000001e374     0x131c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+                0x000000000001e374                __ssprint_r
+                0x000000000001e530                _svfiprintf_r
+ .text          0x000000000001f690      0x194 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+                0x000000000001f690                __swbuf_r
+                0x000000000001f814                __swbuf
+ .text          0x000000000001f824       0xfc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+                0x000000000001f824                _wcrtomb_r
+                0x000000000001f898                wcrtomb
+ .text          0x000000000001f920       0x38 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+                0x000000000001f920                _wctomb_r
+                0x000000000001f928                __ascii_wctomb
+ .text          0x000000000001f958        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+ .text          0x000000000001f958       0x58 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+                0x000000000001f958                _close
+ .text          0x000000000001f9b0       0x44 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_exit.o)
+                0x000000000001f9b0                _exit
+ .text          0x000000000001f9f4       0x70 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+                0x000000000001f9f4                _fstat
+ .text          0x000000000001fa64       0x40 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+                0x000000000001fa64                _isatty
+ .text          0x000000000001faa4       0x50 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+                0x000000000001faa4                _lseek
+ .text          0x000000000001faf4       0x50 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+                0x000000000001faf4                _read
+ .text          0x000000000001fb44       0x9c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+                0x000000000001fb44                _sbrk
+ .text          0x000000000001fbe0       0xa4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+                0x000000000001fbe0                _conv_stat
+ .text          0x000000000001fc84        0x8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+                0x000000000001fc84                __errno
+ .text          0x000000000001fc8c      0x434 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                0x000000000001fc8c                __udivdi3
+ .text          0x00000000000200c0      0x410 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                0x00000000000200c0                __umoddi3
+ .text          0x00000000000204d0      0x6c8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                0x00000000000204d0                __divdf3
+ .text          0x0000000000020b98      0x5b8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                0x0000000000020b98                __muldf3
+ .text          0x0000000000021150       0xcc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+                0x0000000000021150                __eqtf2
+                0x0000000000021150                __netf2
+ .text          0x000000000002121c      0x144 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+                0x000000000002121c                __getf2
+                0x000000000002121c                __gttf2
+ .text          0x0000000000021360      0x144 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+                0x0000000000021360                __letf2
+                0x0000000000021360                __lttf2
+ .text          0x00000000000214a4     0x1008 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+                0x00000000000214a4                __multf3
+ .text          0x00000000000224ac     0x1520 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+                0x00000000000224ac                __subtf3
+ .text          0x00000000000239cc      0x150 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+                0x00000000000239cc                __fixtfsi
+ .text          0x0000000000023b1c      0x188 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+                0x0000000000023b1c                __floatsitf
+ .text          0x0000000000023ca4      0x20c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+                0x0000000000023ca4                __extenddftf2
+ .text          0x0000000000023eb0      0x334 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+                0x0000000000023eb0                __trunctfdf2
+ .text          0x00000000000241e4        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .text          0x00000000000241e4       0x4c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                0x00000000000241e4                __clzsi2
+ .text          0x0000000000024230        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtend.o
+ *(.gnu.warning)
+
+.fini
+ *(SORT_NONE(.fini))
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x0000000000024230      0xcec
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000024230        0x5 ./obj/test.o
+ *fill*         0x0000000000024235        0x3 
+ .rodata        0x0000000000024238      0x18c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ .rodata.str1.4
+                0x00000000000243c4       0x42 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ *fill*         0x0000000000024406        0x2 
+ .rodata        0x0000000000024408      0x252 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ *fill*         0x000000000002465a        0x2 
+ .rodata.str1.4
+                0x000000000002465c       0x28 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ *fill*         0x0000000000024684        0x4 
+ .rodata        0x0000000000024688      0x128 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+                0x0000000000024698                __mprec_tens
+                0x0000000000024760                __mprec_tinytens
+                0x0000000000024788                __mprec_bigtens
+ .rodata        0x00000000000247b0      0x18c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .rodata.str1.4
+                0x000000000002493c       0x42 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .rodata        0x000000000002493c      0x18c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .rodata.str1.4
+                0x0000000000024ac8       0x2f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .rodata.str1.4
+                0x0000000000024ac8       0x10 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+                                         0x12 (size before relaxing)
+ .rodata        0x0000000000024ad8      0x18c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .rodata.str1.4
+                0x0000000000024c64       0x2f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .rodata        0x0000000000024c64      0x101 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+                0x0000000000024c64                _ctype_
+ *fill*         0x0000000000024d65        0x3 
+ .rodata        0x0000000000024d68       0x3c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .rodata        0x0000000000024da4       0x3c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .rodata        0x0000000000024de0       0x3c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .rodata        0x0000000000024e1c      0x100 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+                0x0000000000024e1c                __clz_tab
+
+.rodata1
+ *(.rodata1)
+
+.sdata2
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+
+.sbss2
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000025000                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame       0x0000000000025000       0x40
+ *(.eh_frame)
+ .eh_frame      0x0000000000025000        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+ .eh_frame      0x0000000000025000       0x28 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000000025028       0x14 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x000000000002503c        0x4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtend.o
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0000000000025040        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000025040        0x0
+                0x0000000000025040                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000000025040                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000025040        0x8
+                0x0000000000025040                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ .init_array.00000
+                0x0000000000025040        0x4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__call_atexit.o)
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000025044        0x4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+                0x0000000000025048                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000025048        0x4
+                0x0000000000025048                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000025048        0x4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+                0x000000000002504c                PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic
+ *(.dynamic)
+                0x000000000002504c                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000025050      0x99c
+                0x0000000000025050                __DATA_BEGIN__ = .
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000025050        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/crt0.o
+ .data          0x0000000000025050        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+ .data          0x0000000000025050        0x0 ./obj/test.o
+ .data          0x0000000000025050        0x0 ./obj/retarget.o
+ .data          0x0000000000025050        0x0 ./obj/common.o
+ .data          0x0000000000025050        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-exit.o)
+ .data          0x0000000000025050      0x428 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+ .data          0x0000000000025478        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+ .data          0x0000000000025478        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+ .data          0x0000000000025478      0x408 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                0x0000000000025478                __malloc_av_
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-atexit.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fini.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__atexit.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+ .data          0x0000000000025880        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+ .data          0x0000000000025880      0x16c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+                0x0000000000025880                __global_locale
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_exit.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .data          0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtend.o
+
+.tm_clone_table
+                0x00000000000259ec        0x0
+ .tm_clone_table
+                0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+ .tm_clone_table
+                0x00000000000259ec        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtend.o
+
+.data1
+ *(.data1)
+
+.got
+ *(.got.plt)
+ *(.igot.plt)
+ *(.got)
+ *(.igot)
+
+.sdata          0x00000000000259f0       0x2c
+                0x00000000000259f0                __SDATA_BEGIN__ = .
+ *(.srodata.cst16)
+ *(.srodata.cst8)
+ .srodata.cst8  0x00000000000259f0       0x10 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+ .srodata.cst8  0x0000000000025a00        0x8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+ *(.srodata.cst4)
+ *(.srodata.cst2)
+ *(.srodata .srodata.*)
+ .srodata       0x0000000000025a08        0x4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+                0x0000000000025a08                _global_impure_ptr
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000025a0c        0x4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+                0x0000000000025a0c                __dso_handle
+ .sdata         0x0000000000025a10        0x4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+                0x0000000000025a10                _impure_ptr
+ .sdata         0x0000000000025a14        0x8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                0x0000000000025a14                __malloc_sbrk_base
+                0x0000000000025a18                __malloc_trim_threshold
+                0x0000000000025a1c                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000025a1c                . = .
+                0x0000000000025a1c                __bss_start = .
+
+.sbss           0x0000000000025a1c       0x14
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000025a1c        0xc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                0x0000000000025a1c                __malloc_max_total_mem
+                0x0000000000025a20                __malloc_max_sbrked_mem
+                0x0000000000025a24                __malloc_top_pad
+ .sbss          0x0000000000025a28        0x4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+                0x0000000000025a28                _PathLocale
+ .sbss          0x0000000000025a2c        0x4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+ *(.scommon)
+
+.bss            0x0000000000025a30      0x118
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000025a30        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/crt0.o
+ .bss           0x0000000000025a30       0x1c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+ .bss           0x0000000000025a4c        0x0 ./obj/test.o
+ .bss           0x0000000000025a4c        0x0 ./obj/retarget.o
+ .bss           0x0000000000025a4c        0x0 ./obj/common.o
+ .bss           0x0000000000025a4c        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-exit.o)
+ .bss           0x0000000000025a4c        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+ .bss           0x0000000000025a4c        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+ .bss           0x0000000000025a4c        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+ .bss           0x0000000000025a4c       0x28 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                0x0000000000025a4c                __malloc_current_mallinfo
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-atexit.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fini.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__atexit.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_exit.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000025a74        0x0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtend.o
+ *(COMMON)
+ COMMON         0x0000000000025a74       0xd0 ./obj/retarget.o
+                0x0000000000025a74                __stdin
+                0x0000000000025adc                __stdout
+ COMMON         0x0000000000025b44        0x4 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+                0x0000000000025b44                errno
+                0x0000000000025b48                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000025b48                . = ALIGN (0x4)
+                0x0000000000025b48                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000025b48                . = ALIGN (0x4)
+                0x0000000000025b48                __BSS_END__ = .
+                0x0000000000025850                __global_pointer$ = MIN ((__SDATA_BEGIN__ + 0x800), MAX ((__DATA_BEGIN__ + 0x800), (__BSS_END__ - 0x800)))
+                0x0000000000025b48                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000025b48                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 ./obj/test.o
+ .comment       0x0000000000000011       0x12 ./obj/retarget.o
+ .comment       0x0000000000000011       0x12 ./obj/common.o
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-exit.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fini.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_exit.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .comment       0x0000000000000011       0x12 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtend.o
+
+.riscv.attributes
+                0x0000000000000000       0x1f
+ .riscv.attributes
+                0x0000000000000000       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/crt0.o
+ .riscv.attributes
+                0x000000000000001f       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtbegin.o
+ .riscv.attributes
+                0x000000000000003e       0x1f ./obj/test.o
+ .riscv.attributes
+                0x000000000000005d       0x1f ./obj/retarget.o
+ .riscv.attributes
+                0x000000000000007c       0x1f ./obj/common.o
+ .riscv.attributes
+                0x000000000000009b       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-exit.o)
+ .riscv.attributes
+                0x00000000000000ba       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+ .riscv.attributes
+                0x00000000000000d9       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-init.o)
+ .riscv.attributes
+                0x00000000000000f8       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+ .riscv.attributes
+                0x0000000000000117       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+ .riscv.attributes
+                0x0000000000000136       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+ .riscv.attributes
+                0x0000000000000155       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+ .riscv.attributes
+                0x0000000000000174       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+ .riscv.attributes
+                0x0000000000000193       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+ .riscv.attributes
+                0x00000000000001b2       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+ .riscv.attributes
+                0x00000000000001d1       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+ .riscv.attributes
+                0x00000000000001f0       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ .riscv.attributes
+                0x000000000000020f       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+ .riscv.attributes
+                0x000000000000022e       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__call_atexit.o)
+ .riscv.attributes
+                0x000000000000024d       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-atexit.o)
+ .riscv.attributes
+                0x000000000000026c       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+ .riscv.attributes
+                0x000000000000028b       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+ .riscv.attributes
+                0x00000000000002aa       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fini.o)
+ .riscv.attributes
+                0x00000000000002c9       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+ .riscv.attributes
+                0x00000000000002e8       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+ .riscv.attributes
+                0x0000000000000307       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ .riscv.attributes
+                0x0000000000000326       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+ .riscv.attributes
+                0x0000000000000345       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+ .riscv.attributes
+                0x0000000000000364       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+ .riscv.attributes
+                0x0000000000000383       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+ .riscv.attributes
+                0x00000000000003a2       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+ .riscv.attributes
+                0x00000000000003c1       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+ .riscv.attributes
+                0x00000000000003e0       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+ .riscv.attributes
+                0x00000000000003ff       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+ .riscv.attributes
+                0x000000000000041e       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+ .riscv.attributes
+                0x000000000000043d       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .riscv.attributes
+                0x000000000000045c       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .riscv.attributes
+                0x000000000000047b       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+ .riscv.attributes
+                0x000000000000049a       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-__atexit.o)
+ .riscv.attributes
+                0x00000000000004b9       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+ .riscv.attributes
+                0x00000000000004d8       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+ .riscv.attributes
+                0x00000000000004f7       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+ .riscv.attributes
+                0x0000000000000516       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+ .riscv.attributes
+                0x0000000000000535       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+ .riscv.attributes
+                0x0000000000000554       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+ .riscv.attributes
+                0x0000000000000573       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+ .riscv.attributes
+                0x0000000000000592       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+ .riscv.attributes
+                0x00000000000005b1       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+ .riscv.attributes
+                0x00000000000005d0       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+ .riscv.attributes
+                0x00000000000005ef       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .riscv.attributes
+                0x000000000000060e       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+ .riscv.attributes
+                0x000000000000062d       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+ .riscv.attributes
+                0x000000000000064c       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+ .riscv.attributes
+                0x000000000000066b       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+ .riscv.attributes
+                0x000000000000068a       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .riscv.attributes
+                0x00000000000006a9       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+ .riscv.attributes
+                0x00000000000006c8       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+ .riscv.attributes
+                0x00000000000006e7       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+ .riscv.attributes
+                0x0000000000000706       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+ .riscv.attributes
+                0x0000000000000725       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+ .riscv.attributes
+                0x0000000000000744       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_exit.o)
+ .riscv.attributes
+                0x0000000000000763       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+ .riscv.attributes
+                0x0000000000000782       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+ .riscv.attributes
+                0x00000000000007a1       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+ .riscv.attributes
+                0x00000000000007c0       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+ .riscv.attributes
+                0x00000000000007df       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+ .riscv.attributes
+                0x00000000000007fe       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+ .riscv.attributes
+                0x000000000000081d       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/../../../../riscv32-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+ .riscv.attributes
+                0x000000000000083c       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .riscv.attributes
+                0x000000000000085b       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .riscv.attributes
+                0x000000000000087a       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .riscv.attributes
+                0x0000000000000899       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .riscv.attributes
+                0x00000000000008b8       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .riscv.attributes
+                0x00000000000008d7       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .riscv.attributes
+                0x00000000000008f6       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .riscv.attributes
+                0x0000000000000915       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .riscv.attributes
+                0x0000000000000934       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .riscv.attributes
+                0x0000000000000953       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .riscv.attributes
+                0x0000000000000972       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .riscv.attributes
+                0x0000000000000991       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .riscv.attributes
+                0x00000000000009b0       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .riscv.attributes
+                0x00000000000009cf       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .riscv.attributes
+                0x00000000000009ee       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ .riscv.attributes
+                0x0000000000000a0d       0x1f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/crtend.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x1d8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x0000000000000020       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_aranges
+                0x0000000000000040       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_aranges
+                0x0000000000000060       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_aranges
+                0x0000000000000080       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_aranges
+                0x0000000000000100       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_aranges
+                0x0000000000000120       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_aranges
+                0x0000000000000140       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_aranges
+                0x0000000000000160       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_aranges
+                0x0000000000000180       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_aranges
+                0x00000000000001a0       0x18 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_aranges
+                0x00000000000001b8       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x8185
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x121a /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_info    0x000000000000121a     0x1278 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_info    0x0000000000002492      0x734 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_info    0x0000000000002bc6      0x76c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_info    0x0000000000003332      0x298 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_info    0x00000000000035ca      0x296 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_info    0x0000000000003860      0x296 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_info    0x0000000000003af6     0x126c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_info    0x0000000000004d62      0xd83 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_info    0x0000000000005ae5      0x2c5 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_info    0x0000000000005daa      0x3c6 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_info    0x0000000000006170      0x3ef /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_info    0x000000000000655f      0x53b /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_info    0x0000000000006a9a      0xb3f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_info    0x00000000000075d9      0xbac /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_abbrev   0x0000000000000000     0x1beb
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x2cc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x00000000000002cc      0x2e8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x00000000000005b4      0x187 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_abbrev  0x000000000000073b      0x197 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_abbrev  0x00000000000008d2      0x18b /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_abbrev  0x0000000000000a5d      0x19e /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_abbrev  0x0000000000000bfb      0x19e /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_abbrev  0x0000000000000d99      0x1a8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_abbrev  0x0000000000000f41      0x1bd /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_abbrev  0x00000000000010fe      0x1ac /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_abbrev  0x00000000000012aa      0x1b5 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_abbrev  0x000000000000145f      0x1ab /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_abbrev  0x000000000000160a      0x1b7 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_abbrev  0x00000000000017c1      0x1e8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_abbrev  0x00000000000019a9      0x242 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_line     0x0000000000000000     0x8b30
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x8fd /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_line    0x00000000000008fd      0x9ad /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_line    0x00000000000012aa      0xe3b /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_line    0x00000000000020e5      0xbfe /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_line    0x0000000000002ce3      0x2b2 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_line    0x0000000000002f95      0x399 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_line    0x000000000000332e      0x399 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_line    0x00000000000036c7     0x1e5d /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_line    0x0000000000005524     0x2187 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_line    0x00000000000076ab      0x2bd /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_line    0x0000000000007968      0x2dc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_line    0x0000000000007c44      0x46e /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_line    0x00000000000080b2      0x58a /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_line    0x000000000000863c      0x239 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_line    0x0000000000008875      0x2bb /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_frame    0x0000000000000000      0x2c8
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x54 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_frame   0x0000000000000054       0x54 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_frame   0x00000000000000a8       0x2c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_frame   0x00000000000000d4       0x2c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_frame   0x0000000000000100       0x2c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_frame   0x000000000000012c       0x64 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_frame   0x0000000000000190       0x4c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_frame   0x00000000000001dc       0x2c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_frame   0x0000000000000208       0x3c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_frame   0x0000000000000244       0x38 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_frame   0x000000000000027c       0x2c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_frame   0x00000000000002a8       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_str      0x0000000000000000     0x12bd
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x7cc /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                                        0x84c (size before relaxing)
+ .debug_str     0x00000000000007cc        0xa /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                                        0x84c (size before relaxing)
+ .debug_str     0x00000000000007d6      0x2b3 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                                        0x41a (size before relaxing)
+ .debug_str     0x0000000000000a89      0x162 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                                        0x472 (size before relaxing)
+ .debug_str     0x0000000000000beb       0x8e /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+                                        0x26f (size before relaxing)
+ .debug_str     0x0000000000000c79       0x5f /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+                                        0x293 (size before relaxing)
+ .debug_str     0x0000000000000cd8       0x3b /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+                                        0x293 (size before relaxing)
+ .debug_str     0x0000000000000d13      0x29c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+                                        0x5f9 (size before relaxing)
+ .debug_str     0x0000000000000faf      0x17e /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+                                        0x4c6 (size before relaxing)
+ .debug_str     0x000000000000112d       0x52 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+                                        0x2d7 (size before relaxing)
+ .debug_str     0x000000000000117f       0x70 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+                                        0x39e (size before relaxing)
+ .debug_str     0x00000000000011ef       0x54 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+                                        0x2eb (size before relaxing)
+ .debug_str     0x0000000000001243       0x71 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+                                        0x422 (size before relaxing)
+ .debug_str     0x00000000000012b4      0x793 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_str     0x00000000000012b4        0x9 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                                        0x7b0 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xfa9c
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xc1c /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_loc     0x0000000000000c1c      0x969 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_loc     0x0000000000001585     0x129b /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_loc     0x0000000000002820      0xd6e /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_loc     0x000000000000358e       0x87 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_loc     0x0000000000003615      0x134 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_loc     0x0000000000003749      0x134 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_loc     0x000000000000387d     0x8fad /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_loc     0x000000000000c82a     0x22af /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_loc     0x000000000000ead9      0x302 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_loc     0x000000000000eddb      0x1f8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_loc     0x000000000000efd3      0x417 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_loc     0x000000000000f3ea      0x647 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_loc     0x000000000000fa31       0x6b /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x1330
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x100 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000000100       0xd0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_ranges  0x00000000000001d0      0x180 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_ranges  0x0000000000000350      0x1c0 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_ranges  0x0000000000000510       0x58 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_ranges  0x0000000000000568       0x78 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_ranges  0x00000000000005e0       0x78 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_ranges  0x0000000000000658      0x760 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_ranges  0x0000000000000db8      0x350 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_ranges  0x0000000000001108       0x40 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_ranges  0x0000000000001148       0x58 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_ranges  0x00000000000011a0       0x98 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_ranges  0x0000000000001238       0xd8 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_ranges  0x0000000000001310       0x20 /opt/riscv/riscv_multilib/lib/gcc/riscv32-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(./bin/test elf32-littleriscv)

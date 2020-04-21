@@ -1,0 +1,1042 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+                              ./obj/common.o (malloc)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o) (_malloc_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o) (__malloc_lock)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+                              ./obj/commandline.o (printf)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-puts.o)
+                              ./obj/commandline.o (puts)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o) (_sbrk_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+                              ./obj/common.o (strcpy)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+                              ./obj/common.o (strlen)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o) (_vfprintf_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__swsetup_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (_fflush_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-puts.o) (__sinit)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o) (_free_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-puts.o) (__sfvwrite_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o) (_fwalk)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o) (_global_impure_ptr)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (_ldtoa_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (_localeconv_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o) (__global_locale)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o) (__smakebuf_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o) (__ascii_mbtowc)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (memchr)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o) (memcpy)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o) (memmove)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o) (memset)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o) (_Balloc)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o) (_realloc_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o) (errno)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (frexp)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o) (sprintf)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o) (__sread)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o) (strcmp)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (strncpy)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o) (_svfprintf_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__sprint_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o) (__ascii_wctomb)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o) (_write_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o) (_calloc_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o) (_close_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o) (_ctype_)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o) (_fclose_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o) (_fputwc_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o) (_fstat_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o) (_isatty_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o) (_lseek_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o) (_read_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o) (__ssprint_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o) (__swbuf_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o) (_wcrtomb_r)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o) (_close)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o) (_fstat)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o) (_isatty)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o) (_lseek)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o) (_read)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o) (_sbrk)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o) (_conv_stat)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o) (__errno)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__udivdi3)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__umoddi3)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o) (__divdf3)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o) (__muldf3)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__eqtf2)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__gttf2)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__lttf2)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__multf3)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__subtf3)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__fixtfsi)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__floatsitf)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__extenddftf2)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o) (__trunctfdf2)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o) (__clz_tab)
+/home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                              /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o) (__clzsi2)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+__stdin             0x68              ./obj/retarget.o
+__stdout            0x68              ./obj/retarget.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000080000000 0x0000000000500000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./obj/commandline.o
+LOAD ./obj/retarget.o
+LOAD ./obj/common.o
+LOAD ./bin/commandline.o
+LOAD /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a
+START GROUP
+LOAD /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a
+LOAD /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a
+END GROUP
+LOAD /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a
+
+.text           0x0000000080000000    0x14d34
+                0x0000000080000000                . = ALIGN (0x4)
+ *(.vectors)
+ .vectors       0x0000000080000000        0x4 ./bin/commandline.o
+                0x0000000080000000                __vectors
+ *(.text*)
+ .text          0x0000000080000004       0xec ./obj/commandline.o
+                0x0000000080000004                main
+ .text          0x00000000800000f0       0xac ./obj/retarget.o
+                0x00000000800000f0                my_fputc
+                0x0000000080000130                _write
+ .text          0x000000008000019c      0x174 ./obj/common.o
+                0x000000008000019c                get_argv
+                0x00000000800002e8                end_main
+ .text          0x0000000080000310       0xb0 ./bin/commandline.o
+                0x0000000080000310                Reset_Handler
+                0x0000000080000394                _start
+ .text          0x00000000800003c0       0x28 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+                0x00000000800003c0                malloc
+                0x00000000800003d4                free
+ .text          0x00000000800003e8      0x83c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                0x00000000800003e8                _malloc_r
+ .text          0x0000000080000c24        0x8 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+                0x0000000080000c24                __malloc_lock
+                0x0000000080000c28                __malloc_unlock
+ .text          0x0000000080000c2c       0x9c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+                0x0000000080000c2c                _printf_r
+                0x0000000080000c70                printf
+ .text          0x0000000080000cc8       0xe4 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-puts.o)
+                0x0000000080000cc8                _puts_r
+                0x0000000080000d98                puts
+ .text          0x0000000080000dac       0x5c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+                0x0000000080000dac                _sbrk_r
+ .text          0x0000000080000e08       0xb0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+                0x0000000080000e08                strcpy
+ .text          0x0000000080000eb8       0x8c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+                0x0000000080000eb8                strlen
+ .text          0x0000000080000f44     0x2bfc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+                0x0000000080000f44                _vfprintf_r
+                0x0000000080003a64                vfprintf
+ .text          0x0000000080003b40      0x16c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+                0x0000000080003b40                __swsetup_r
+ .text          0x0000000080003cac      0x2ec /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+                0x0000000080003cac                __sflush_r
+                0x0000000080003f08                _fflush_r
+                0x0000000080003f68                fflush
+ .text          0x0000000080003f98      0x37c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+                0x0000000080003fa0                _cleanup_r
+                0x0000000080004138                __sfmoreglue
+                0x00000000800041a4                __sfp
+                0x00000000800042ac                _cleanup
+                0x00000000800042c4                __sinit
+                0x00000000800042d4                __sfp_lock_acquire
+                0x00000000800042d8                __sfp_lock_release
+                0x00000000800042dc                __sinit_lock_acquire
+                0x00000000800042e0                __sinit_lock_release
+                0x00000000800042e4                __fp_lock_all
+                0x00000000800042fc                __fp_unlock_all
+ .text          0x0000000080004314      0x45c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+                0x0000000080004314                _malloc_trim_r
+                0x0000000080004450                _free_r
+ .text          0x0000000080004770      0x4b0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+                0x0000000080004770                __sfvwrite_r
+ .text          0x0000000080004c20      0x170 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+                0x0000000080004c20                _fwalk
+                0x0000000080004cd0                _fwalk_reent
+ .text          0x0000000080004d90        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+ .text          0x0000000080004d90     0x2b28 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+                0x0000000080006560                _ldtoa_r
+                0x0000000080007854                _ldcheck
+ .text          0x00000000800078b8       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+                0x00000000800078b8                __localeconv_l
+                0x00000000800078c0                _localeconv_r
+                0x00000000800078cc                localeconv
+ .text          0x00000000800078d8       0xa0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+                0x00000000800078d8                _setlocale_r
+                0x0000000080007954                __locale_mb_cur_max
+                0x0000000080007960                setlocale
+ .text          0x0000000080007978      0x1f0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+                0x0000000080007978                __swhatbuf_r
+                0x0000000080007a48                __smakebuf_r
+ .text          0x0000000080007b68       0x78 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+                0x0000000080007b68                _mbtowc_r
+                0x0000000080007b78                __ascii_mbtowc
+ .text          0x0000000080007be0       0xdc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+                0x0000000080007be0                memchr
+ .text          0x0000000080007cbc      0x11c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+                0x0000000080007cbc                memcpy
+ .text          0x0000000080007dd8      0x120 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+                0x0000000080007dd8                memmove
+ .text          0x0000000080007ef8       0xdc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+                0x0000000080007ef8                memset
+ .text          0x0000000080007fd4     0x1008 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+                0x0000000080007fd4                _Balloc
+                0x000000008000807c                _Bfree
+                0x00000000800080a0                __multadd
+                0x00000000800081c8                __s2b
+                0x00000000800082d4                __hi0bits
+                0x0000000080008348                __lo0bits
+                0x0000000080008400                __i2b
+                0x0000000080008434                __multiply
+                0x000000008000862c                __pow5mult
+                0x0000000080008774                __lshift
+                0x00000000800088c0                __mcmp
+                0x000000008000891c                __mdiff
+                0x0000000080008b00                __ulp
+                0x0000000080008b60                __b2d
+                0x0000000080008c78                __d2b
+                0x0000000080008dbc                __ratio
+                0x0000000080008e60                _mprec_log10
+                0x0000000080008efc                __copybits
+                0x0000000080008f64                __any_on
+ .text          0x0000000080008fdc      0x5dc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+                0x0000000080008fdc                _realloc_r
+ .text          0x00000000800095b8      0x154 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+                0x00000000800095b8                cleanup_glue
+                0x00000000800095f8                _reclaim_reent
+ .text          0x000000008000970c       0xb0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+                0x000000008000970c                frexp
+ .text          0x00000000800097bc       0xec /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+                0x00000000800097bc                _sprintf_r
+                0x0000000080009828                sprintf
+ .text          0x00000000800098a8      0x15c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+                0x00000000800098a8                __sread
+                0x0000000080009904                __seofread
+                0x000000008000990c                __swrite
+                0x0000000080009994                __sseek
+                0x00000000800099fc                __sclose
+ .text          0x0000000080009a04      0x17c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+                0x0000000080009a04                strcmp
+ .text          0x0000000080009b80       0xcc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+                0x0000000080009b80                strncpy
+ .text          0x0000000080009c4c     0x2acc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+                0x0000000080009c4c                _svfprintf_r
+ .text          0x000000008000c718     0x14b4 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+                0x000000008000c808                __sprint_r
+                0x000000008000c820                _vfiprintf_r
+                0x000000008000daf0                vfiprintf
+ .text          0x000000008000dbcc       0x40 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+                0x000000008000dbcc                _wctomb_r
+                0x000000008000dbdc                __ascii_wctomb
+ .text          0x000000008000dc0c       0x68 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+                0x000000008000dc0c                _write_r
+ .text          0x000000008000dc74       0xb0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+                0x000000008000dc74                _calloc_r
+ .text          0x000000008000dd24       0x5c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+                0x000000008000dd24                _close_r
+ .text          0x000000008000dd80        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+ .text          0x000000008000dd80      0x124 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+                0x000000008000dd80                _fclose_r
+                0x000000008000de90                fclose
+ .text          0x000000008000dea4      0x1e0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+                0x000000008000dea4                __fputwc
+                0x000000008000dfd0                _fputwc_r
+                0x000000008000dffc                fputwc
+ .text          0x000000008000e084       0x64 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+                0x000000008000e084                _fstat_r
+ .text          0x000000008000e0e8       0x5c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+                0x000000008000e0e8                _isatty_r
+ .text          0x000000008000e144       0x68 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+                0x000000008000e144                _lseek_r
+ .text          0x000000008000e1ac       0x68 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+                0x000000008000e1ac                _read_r
+ .text          0x000000008000e214     0x129c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+                0x000000008000e214                __ssprint_r
+                0x000000008000e3d0                _svfiprintf_r
+ .text          0x000000008000f4b0      0x19c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+                0x000000008000f4b0                __swbuf_r
+                0x000000008000f634                __swbuf
+ .text          0x000000008000f64c      0x114 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+                0x000000008000f64c                _wcrtomb_r
+                0x000000008000f6c8                wcrtomb
+ .text          0x000000008000f760       0x58 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+                0x000000008000f760                _close
+ .text          0x000000008000f7b8       0x70 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+                0x000000008000f7b8                _fstat
+ .text          0x000000008000f828       0x40 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+                0x000000008000f828                _isatty
+ .text          0x000000008000f868       0x50 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+                0x000000008000f868                _lseek
+ .text          0x000000008000f8b8       0x50 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+                0x000000008000f8b8                _read
+ .text          0x000000008000f908       0xac /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+                0x000000008000f908                _sbrk
+ .text          0x000000008000f9b4       0xa4 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+                0x000000008000f9b4                _conv_stat
+ .text          0x000000008000fa58       0x10 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+                0x000000008000fa58                __errno
+ .text          0x000000008000fa68      0x434 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                0x000000008000fa68                __udivdi3
+ .text          0x000000008000fe9c      0x410 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                0x000000008000fe9c                __umoddi3
+ .text          0x00000000800102ac      0x6cc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                0x00000000800102ac                __divdf3
+ .text          0x0000000080010978      0x5bc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                0x0000000080010978                __muldf3
+ .text          0x0000000080010f34       0xcc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+                0x0000000080010f34                __eqtf2
+                0x0000000080010f34                __netf2
+ .text          0x0000000080011000      0x144 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+                0x0000000080011000                __getf2
+                0x0000000080011000                __gttf2
+ .text          0x0000000080011144      0x144 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+                0x0000000080011144                __letf2
+                0x0000000080011144                __lttf2
+ .text          0x0000000080011288     0x100c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+                0x0000000080011288                __multf3
+ .text          0x0000000080012294     0x1520 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+                0x0000000080012294                __subtf3
+ .text          0x00000000800137b4      0x150 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+                0x00000000800137b4                __fixtfsi
+ .text          0x0000000080013904      0x188 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+                0x0000000080013904                __floatsitf
+ .text          0x0000000080013a8c      0x20c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+                0x0000000080013a8c                __extenddftf2
+ .text          0x0000000080013c98      0x334 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+                0x0000000080013c98                __trunctfdf2
+ .text          0x0000000080013fcc        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .text          0x0000000080013fcc       0x4c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                0x0000000080013fcc                __clzsi2
+ *(.rodata*)
+ .rodata        0x0000000080014018       0x34 ./obj/commandline.o
+ .rodata.str1.4
+                0x000000008001404c        0x2 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-puts.o)
+ *fill*         0x000000008001404e        0x2 
+ .rodata        0x0000000080014050      0x18c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ .rodata.str1.4
+                0x00000000800141dc       0x42 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ *fill*         0x000000008001421e        0x2 
+ .rodata        0x0000000080014220      0x252 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ *fill*         0x0000000080014472        0x2 
+ .rodata.str1.4
+                0x0000000080014474       0x28 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ .rodata.str1.4
+                0x000000008001449c       0x10 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+                                         0x12 (size before relaxing)
+ *fill*         0x00000000800144ac        0x4 
+ .rodata        0x00000000800144b0      0x128 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+                0x00000000800144c0                __mprec_tens
+                0x0000000080014588                __mprec_tinytens
+                0x00000000800145b0                __mprec_bigtens
+ .rodata        0x00000000800145d8      0x18c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .rodata.str1.4
+                0x0000000080014764       0x42 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .rodata        0x0000000080014764      0x18c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .rodata.str1.4
+                0x00000000800148f0       0x2f /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .rodata        0x00000000800148f0      0x101 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+                0x00000000800148f0                _ctype_
+ *fill*         0x00000000800149f1        0x3 
+ .rodata        0x00000000800149f4      0x18c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .rodata.str1.4
+                0x0000000080014b80       0x2f /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .rodata        0x0000000080014b80       0x3c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .rodata        0x0000000080014bbc       0x3c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .rodata        0x0000000080014bf8       0x3c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .rodata        0x0000000080014c34      0x100 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+                0x0000000080014c34                __clz_tab
+                0x0000000080014d34                __etext = .
+
+.srodata        0x0000000080014d34        0x4
+ .srodata       0x0000000080014d34        0x4 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+                0x0000000080014d34                _global_impure_ptr
+
+.srodata.cst8   0x0000000080014d38       0x18
+ .srodata.cst8  0x0000000080014d38       0x10 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+ .srodata.cst8  0x0000000080014d48        0x8 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+
+.eh_frame       0x0000000080014d50       0x3c
+ .eh_frame      0x0000000080014d50       0x28 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000000080014d78       0x14 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                                         0x28 (size before relaxing)
+
+.rela.dyn       0x0000000080014d8c        0x0
+ .rela.text     0x0000000080014d8c        0x0 ./obj/commandline.o
+
+.data           0x0000000080014d90      0x9a8
+                0x0000000080014d90                . = ALIGN (0x4)
+                0x0000000080014d90                __data_start__ = .
+ *(.data*)
+ .data          0x0000000080014d90        0x0 ./obj/commandline.o
+ .data          0x0000000080014d90        0x0 ./obj/retarget.o
+ .data          0x0000000080014d90        0x0 ./obj/common.o
+ .data          0x0000000080014d90        0x0 ./bin/commandline.o
+ .data          0x0000000080014d90        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+ .data          0x0000000080014d90      0x408 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                0x0000000080014d90                __malloc_av_
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-puts.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+ .data          0x0000000080015198        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+ .data          0x0000000080015198      0x428 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+ .data          0x00000000800155c0        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ .data          0x00000000800155c0        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+ .data          0x00000000800155c0      0x16c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+                0x00000000800155c0                __global_locale
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .data          0x000000008001572c        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ *(.sdata*)
+ .sdata         0x000000008001572c        0x8 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                0x000000008001572c                __malloc_sbrk_base
+                0x0000000080015730                __malloc_trim_threshold
+ .sdata         0x0000000080015734        0x4 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+                0x0000000080015734                _impure_ptr
+                0x0000000080015738                . = ALIGN (0x4)
+                0x0000000080015738                __data_end__ = .
+
+.bss            0x0000000080015738      0x110
+                0x0000000080015738                . = ALIGN (0x4)
+                0x0000000080015738                __bss_start__ = .
+ *(.bss*)
+ .bss           0x0000000080015738        0x0 ./obj/commandline.o
+ .bss           0x0000000080015738        0x0 ./obj/retarget.o
+ .bss           0x0000000080015738        0x0 ./obj/common.o
+ .bss           0x0000000080015738        0x0 ./bin/commandline.o
+ .bss           0x0000000080015738        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+ .bss           0x0000000080015738       0x28 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                0x0000000080015738                __malloc_current_mallinfo
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-puts.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .bss           0x0000000080015760        0x0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+ *(.sbss*)
+ .sbss          0x0000000080015760        0xc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+                0x0000000080015760                __malloc_max_total_mem
+                0x0000000080015764                __malloc_max_sbrked_mem
+                0x0000000080015768                __malloc_top_pad
+ .sbss          0x000000008001576c        0x4 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+                0x000000008001576c                _PathLocale
+ .sbss          0x0000000080015770        0x4 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+ *(COMMON)
+ COMMON         0x0000000080015774       0xd0 ./obj/retarget.o
+                0x0000000080015774                __stdin
+                0x00000000800157dc                __stdout
+ COMMON         0x0000000080015844        0x4 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+                0x0000000080015844                errno
+                0x0000000080015848                . = ALIGN (0x4)
+                0x0000000080015848                __bss_end__ = .
+
+.heap           0x0000000080015848        0x0
+                0x0000000080015848                __end__ = .
+ *(.heap*)
+ .heap          0x0000000080015848        0x0 ./bin/commandline.o
+                0x0000000080015848                __HeapLimit = .
+
+.stack_dummy    0x0000000080015848      0x400
+ *(.stack*)
+ .stack         0x0000000080015848      0x400 ./bin/commandline.o
+                0x0000000080500000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00000000804ffc00                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x0000000000000001                ASSERT ((__StackLimit >= __HeapLimit), RAM overflowed w/ stack)
+OUTPUT(./bin/commandline elf32-littleriscv)
+
+.comment        0x0000000000000000       0x28
+ .comment       0x0000000000000000       0x28 ./obj/commandline.o
+                                         0x29 (size before relaxing)
+ .comment       0x0000000000000028       0x29 ./obj/retarget.o
+ .comment       0x0000000000000028       0x29 ./obj/common.o
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-puts.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .comment       0x0000000000000028       0x29 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.riscv.attributes
+                0x0000000000000000       0x21
+ .riscv.attributes
+                0x0000000000000000       0x21 ./obj/commandline.o
+ .riscv.attributes
+                0x0000000000000021       0x21 ./obj/retarget.o
+ .riscv.attributes
+                0x0000000000000042       0x21 ./obj/common.o
+ .riscv.attributes
+                0x0000000000000063       0x1f ./bin/commandline.o
+ .riscv.attributes
+                0x0000000000000082       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-malloc.o)
+ .riscv.attributes
+                0x00000000000000a3       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mallocr.o)
+ .riscv.attributes
+                0x00000000000000c4       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mlock.o)
+ .riscv.attributes
+                0x00000000000000e5       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-printf.o)
+ .riscv.attributes
+                0x0000000000000106       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-puts.o)
+ .riscv.attributes
+                0x0000000000000127       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sbrkr.o)
+ .riscv.attributes
+                0x0000000000000148       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcpy.o)
+ .riscv.attributes
+                0x0000000000000169       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strlen.o)
+ .riscv.attributes
+                0x000000000000018a       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfprintf.o)
+ .riscv.attributes
+                0x00000000000001ab       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wsetup.o)
+ .riscv.attributes
+                0x00000000000001cc       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fflush.o)
+ .riscv.attributes
+                0x00000000000001ed       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-findfp.o)
+ .riscv.attributes
+                0x000000000000020e       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-freer.o)
+ .riscv.attributes
+                0x000000000000022f       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fvwrite.o)
+ .riscv.attributes
+                0x0000000000000250       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fwalk.o)
+ .riscv.attributes
+                0x0000000000000271       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-impure.o)
+ .riscv.attributes
+                0x0000000000000292       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ldtoa.o)
+ .riscv.attributes
+                0x00000000000002b3       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-localeconv.o)
+ .riscv.attributes
+                0x00000000000002d4       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-locale.o)
+ .riscv.attributes
+                0x00000000000002f5       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-makebuf.o)
+ .riscv.attributes
+                0x0000000000000316       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mbtowc_r.o)
+ .riscv.attributes
+                0x0000000000000337       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memchr.o)
+ .riscv.attributes
+                0x0000000000000358       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memcpy.o)
+ .riscv.attributes
+                0x0000000000000379       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memmove-stub.o)
+ .riscv.attributes
+                0x000000000000039a       0x1f /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-memset.o)
+ .riscv.attributes
+                0x00000000000003b9       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-mprec.o)
+ .riscv.attributes
+                0x00000000000003da       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reallocr.o)
+ .riscv.attributes
+                0x00000000000003fb       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-reent.o)
+ .riscv.attributes
+                0x000000000000041c       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-s_frexp.o)
+ .riscv.attributes
+                0x000000000000043d       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-sprintf.o)
+ .riscv.attributes
+                0x000000000000045e       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-stdio.o)
+ .riscv.attributes
+                0x000000000000047f       0x1f /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strcmp.o)
+ .riscv.attributes
+                0x000000000000049e       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-strncpy.o)
+ .riscv.attributes
+                0x00000000000004bf       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfprintf.o)
+ .riscv.attributes
+                0x00000000000004e0       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-vfiprintf.o)
+ .riscv.attributes
+                0x0000000000000501       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wctomb_r.o)
+ .riscv.attributes
+                0x0000000000000522       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-writer.o)
+ .riscv.attributes
+                0x0000000000000543       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-callocr.o)
+ .riscv.attributes
+                0x0000000000000564       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-closer.o)
+ .riscv.attributes
+                0x0000000000000585       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-ctype_.o)
+ .riscv.attributes
+                0x00000000000005a6       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fclose.o)
+ .riscv.attributes
+                0x00000000000005c7       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fputwc.o)
+ .riscv.attributes
+                0x00000000000005e8       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-fstatr.o)
+ .riscv.attributes
+                0x0000000000000609       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-isattyr.o)
+ .riscv.attributes
+                0x000000000000062a       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-lseekr.o)
+ .riscv.attributes
+                0x000000000000064b       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-readr.o)
+ .riscv.attributes
+                0x000000000000066c       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-svfiprintf.o)
+ .riscv.attributes
+                0x000000000000068d       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wbuf.o)
+ .riscv.attributes
+                0x00000000000006ae       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-wcrtomb.o)
+ .riscv.attributes
+                0x00000000000006cf       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_close.o)
+ .riscv.attributes
+                0x00000000000006f0       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_fstat.o)
+ .riscv.attributes
+                0x0000000000000711       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_isatty.o)
+ .riscv.attributes
+                0x0000000000000732       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_lseek.o)
+ .riscv.attributes
+                0x0000000000000753       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_read.o)
+ .riscv.attributes
+                0x0000000000000774       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_sbrk.o)
+ .riscv.attributes
+                0x0000000000000795       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libgloss.a(sys_conv_stat.o)
+ .riscv.attributes
+                0x00000000000007b6       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/libc.a(lib_a-errno.o)
+ .riscv.attributes
+                0x00000000000007d7       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .riscv.attributes
+                0x00000000000007f8       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .riscv.attributes
+                0x0000000000000819       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .riscv.attributes
+                0x000000000000083a       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .riscv.attributes
+                0x000000000000085b       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .riscv.attributes
+                0x000000000000087c       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .riscv.attributes
+                0x000000000000089d       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .riscv.attributes
+                0x00000000000008be       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .riscv.attributes
+                0x00000000000008df       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .riscv.attributes
+                0x0000000000000900       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .riscv.attributes
+                0x0000000000000921       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .riscv.attributes
+                0x0000000000000942       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .riscv.attributes
+                0x0000000000000963       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .riscv.attributes
+                0x0000000000000984       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .riscv.attributes
+                0x00000000000009a5       0x21 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_info     0x0000000000000000     0x8231
+ .debug_info    0x0000000000000000     0x1245 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000001245     0x12a3 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_info    0x00000000000024e8      0x734 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_info    0x0000000000002c1c      0x76c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_info    0x0000000000003388      0x298 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_info    0x0000000000003620      0x296 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_info    0x00000000000038b6      0x296 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_info    0x0000000000003b4c     0x126c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_info    0x0000000000004db8      0xd83 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_info    0x0000000000005b3b      0x2c5 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_info    0x0000000000005e00      0x3c6 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_info    0x00000000000061c6      0x3ef /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_info    0x00000000000065b5      0x53b /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_info    0x0000000000006af0      0xb6a /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_info    0x000000000000765a      0xbd7 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_abbrev   0x0000000000000000     0x1beb
+ .debug_abbrev  0x0000000000000000      0x2cc /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x00000000000002cc      0x2e8 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_abbrev  0x00000000000005b4      0x187 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_abbrev  0x000000000000073b      0x197 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_abbrev  0x00000000000008d2      0x18b /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_abbrev  0x0000000000000a5d      0x19e /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_abbrev  0x0000000000000bfb      0x19e /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_abbrev  0x0000000000000d99      0x1a8 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_abbrev  0x0000000000000f41      0x1bd /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_abbrev  0x00000000000010fe      0x1ac /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_abbrev  0x00000000000012aa      0x1b5 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_abbrev  0x000000000000145f      0x1ab /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_abbrev  0x000000000000160a      0x1b7 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_abbrev  0x00000000000017c1      0x1e8 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_abbrev  0x00000000000019a9      0x242 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_loc      0x0000000000000000     0xfa50
+ .debug_loc     0x0000000000000000      0xbd0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_loc     0x0000000000000bd0      0x969 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_loc     0x0000000000001539     0x129b /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_loc     0x00000000000027d4      0xd6e /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_loc     0x0000000000003542       0x87 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_loc     0x00000000000035c9      0x134 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_loc     0x00000000000036fd      0x134 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_loc     0x0000000000003831     0x8fad /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_loc     0x000000000000c7de     0x22af /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_loc     0x000000000000ea8d      0x302 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_loc     0x000000000000ed8f      0x1f8 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_loc     0x000000000000ef87      0x417 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_loc     0x000000000000f39e      0x647 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_loc     0x000000000000f9e5       0x6b /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x0000000000000000      0x1d8
+ .debug_aranges
+                0x0000000000000000       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x0000000000000020       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_aranges
+                0x0000000000000040       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_aranges
+                0x0000000000000060       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_aranges
+                0x0000000000000080       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_aranges
+                0x00000000000000a0       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_aranges
+                0x00000000000000c0       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_aranges
+                0x00000000000000e0       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_aranges
+                0x0000000000000100       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_aranges
+                0x0000000000000120       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_aranges
+                0x0000000000000140       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_aranges
+                0x0000000000000160       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_aranges
+                0x0000000000000180       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_aranges
+                0x00000000000001a0       0x18 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_aranges
+                0x00000000000001b8       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_ranges   0x0000000000000000     0x1330
+ .debug_ranges  0x0000000000000000      0x100 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_ranges  0x0000000000000100       0xd0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_ranges  0x00000000000001d0      0x180 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_ranges  0x0000000000000350      0x1c0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_ranges  0x0000000000000510       0x58 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_ranges  0x0000000000000568       0x78 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_ranges  0x00000000000005e0       0x78 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_ranges  0x0000000000000658      0x760 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_ranges  0x0000000000000db8      0x350 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_ranges  0x0000000000001108       0x40 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_ranges  0x0000000000001148       0x58 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_ranges  0x00000000000011a0       0x98 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_ranges  0x0000000000001238       0xd8 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_ranges  0x0000000000001310       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_line     0x0000000000000000     0x8e7a
+ .debug_line    0x0000000000000000      0x9e0 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+ .debug_line    0x00000000000009e0      0xa90 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+ .debug_line    0x0000000000001470      0xe35 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_line    0x00000000000022a5      0xbf8 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_line    0x0000000000002e9d      0x2ac /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_line    0x0000000000003149      0x393 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_line    0x00000000000034dc      0x393 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_line    0x000000000000386f     0x1e57 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_line    0x00000000000056c6     0x2181 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_line    0x0000000000007847      0x2b7 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_line    0x0000000000007afe      0x2d6 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_line    0x0000000000007dd4      0x468 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_line    0x000000000000823c      0x584 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_line    0x00000000000087c0      0x31c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_line    0x0000000000008adc      0x39e /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+
+.debug_str      0x0000000000000000     0x12d5
+ .debug_str     0x0000000000000000      0x813 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_udivdi3.o)
+                                        0x893 (size before relaxing)
+ .debug_str     0x0000000000000813        0xa /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_umoddi3.o)
+                                        0x893 (size before relaxing)
+ .debug_str     0x000000000000081d      0x2a2 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+                                        0x41b (size before relaxing)
+ .debug_str     0x0000000000000abf      0x15f /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+                                        0x473 (size before relaxing)
+ .debug_str     0x0000000000000c1e       0x8b /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+                                        0x270 (size before relaxing)
+ .debug_str     0x0000000000000ca9       0x5c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+                                        0x294 (size before relaxing)
+ .debug_str     0x0000000000000d05       0x38 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+                                        0x294 (size before relaxing)
+ .debug_str     0x0000000000000d3d      0x299 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+                                        0x5fa (size before relaxing)
+ .debug_str     0x0000000000000fd6      0x17b /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+                                        0x4c7 (size before relaxing)
+ .debug_str     0x0000000000001151       0x4f /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+                                        0x2d8 (size before relaxing)
+ .debug_str     0x00000000000011a0       0x6d /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+                                        0x39f (size before relaxing)
+ .debug_str     0x000000000000120d       0x51 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+                                        0x2ec (size before relaxing)
+ .debug_str     0x000000000000125e       0x6e /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+                                        0x423 (size before relaxing)
+ .debug_str     0x00000000000012cc      0x7da /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clz.o)
+ .debug_str     0x00000000000012cc        0x9 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)
+                                        0x7f7 (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x2c8
+ .debug_frame   0x0000000000000000       0x54 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(divdf3.o)
+ .debug_frame   0x0000000000000054       0x54 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(muldf3.o)
+ .debug_frame   0x00000000000000a8       0x2c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(eqtf2.o)
+ .debug_frame   0x00000000000000d4       0x2c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(getf2.o)
+ .debug_frame   0x0000000000000100       0x2c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(letf2.o)
+ .debug_frame   0x000000000000012c       0x64 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(multf3.o)
+ .debug_frame   0x0000000000000190       0x4c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(subtf3.o)
+ .debug_frame   0x00000000000001dc       0x2c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(fixtfsi.o)
+ .debug_frame   0x0000000000000208       0x3c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(floatsitf.o)
+ .debug_frame   0x0000000000000244       0x38 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(extenddftf2.o)
+ .debug_frame   0x000000000000027c       0x2c /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(trunctfdf2.o)
+ .debug_frame   0x00000000000002a8       0x20 /home/mago/Project/RISC-V/ISS/syiss_ori/testcode/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.3.0/rv32im/ilp32/libgcc.a(_clzsi2.o)

@@ -1,0 +1,1 @@
+./bin/syiss ./testcode/app/program -bp_addr=104c8 -pc_log > log/run_bp.log

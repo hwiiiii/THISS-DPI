@@ -1,0 +1,1 @@
+spike -h -d --isa=rv32im $RISCV/riscv32-unknown-elf/bin/pk ./app/program.bin 1 2 3 4 2>&1 | tee pc.log

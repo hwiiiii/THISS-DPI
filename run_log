@@ -1,0 +1,1 @@
+./bin/syiss ./testcode/app/program.bin -pc_log > log/run.log

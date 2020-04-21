@@ -4,10 +4,14 @@ RISC-V Instruction Simulator
 
 
 ## Requirement
+
 ### Ubuntu
+
 1. Install libelf library
 
+
 	sudo apt-get install libelf-dev
+
 
 ## Install
 
@@ -24,8 +28,8 @@ RISC-V Instruction Simulator
  	vi hello.c
  
  ***
-hello.c
- 
+> hello.c
+> 
 >	 	#include <stdio.h>
 >	 
 >	 	int main()
@@ -47,8 +51,8 @@ hello.c
  
  	 
  ***
-hello.c
- 
+> hello.c
+> 
 >	 	#include <stdio.h>
 >	 
 >	 	#ifdef SYISS
@@ -81,8 +85,8 @@ hello.c
   2. change TARGET to your testcode's name
 
 ***
-Makefile
- 
+> Makefile
+> 
 >	 	TARGET = hello
 
 ***
@@ -101,7 +105,7 @@ Makefile
 
 	./bin/syiss ./testcode/app/program.bin
 
- or
+or
 
 	./run
 

@@ -99,7 +99,7 @@ sudo apt-get install libelf-dev
 make
 ```
 
-#### _Thanks to SiFive, prebuilt RISC-V Toolchain is used for compile process._
+#### _Thanks to SiFive, prebuilt RISC-V Toolchain is used for this compile process._
 ##### _Download available at : [SiFive](https://www.sifive.com/boards, "semifive link")_
 
 ### 6. run simulator

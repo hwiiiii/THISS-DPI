@@ -121,8 +121,4 @@ or
 ./run
 ```
 
- You may reference any 'run' file or simply run simulator without arguments
-
-
-
-	
+ You may reference any 'run' file or simply run simulator without arguments for help

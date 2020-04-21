@@ -11,7 +11,7 @@ RISC-V Instruction Simulator
 
 
 ```
-	sudo apt-get install libelf-dev
+sudo apt-get install libelf-dev
 ```
 
 
@@ -103,7 +103,7 @@ RISC-V Instruction Simulator
 
 
 ```
-	 cd ..
+cd ..
 ```
 
 
@@ -111,14 +111,14 @@ RISC-V Instruction Simulator
 
 
 ```
-	./bin/syiss ./testcode/app/program.bin
+./bin/syiss ./testcode/app/program.bin
 ```
 
 
 or
 
 ```
-	./run
+./run
 ```
 
  You may reference any 'run' file or simply run simulator without arguments

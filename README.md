@@ -45,7 +45,7 @@ sudo apt-get install libelf-dev
  ***
 
 
-### 3. include "common.h"
+### 3. include "common.h" in your testcode
 
  this header file is for :
   1. Passing commandline argument to program
@@ -67,7 +67,7 @@ sudo apt-get install libelf-dev
 >	 		printf("Hello Sung Yeon!\n");
 >	 		
 >	 	#ifdef SYISS
->	 	end_main()
+>	 	end_main();
 >	 	#endif
 >
 >	 		return 0;

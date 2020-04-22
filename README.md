@@ -17,7 +17,16 @@ sudo apt-get install libelf-dev
 
 ## Install
 
-	make
+### 1. go to syiss repository
+
+```
+cd ./syiss
+```
+
+### 2. install
+```
+make
+```
 
 ## Tutorial
 

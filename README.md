@@ -22,7 +22,7 @@ sudo apt-get install libelf-dev
 
 ## Install
 
-### 1. go to syiss repository
+### 1. go to your syiss repository
 
 ```
 cd ./syiss
@@ -38,7 +38,7 @@ make
 
 ## Tutorial
 
-### 1. go to syiss repository
+### 1. go to your syiss repository
 
 ```
 cd ./syiss
@@ -48,7 +48,7 @@ cd ./syiss
 
  	cd ./testcode/testsrc
 
-### 2. create your testcode
+### 3. create your testcode
 
  	vi hello.c
  

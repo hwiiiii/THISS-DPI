@@ -1,5 +1,5 @@
-# syiss
-RISC-V Instruction Simulator 
+# SYISS
+RISC-V Instruction Set Simulator 
 (march = rv32im / mabi = ilp32)
 
 
@@ -23,7 +23,7 @@ sudo apt-get install libelf-dev
 
 ### 1. go to testcode directory
 
- 	cd ./testcode/testsrc
+ 	cd ./syiss/testcode/testsrc
 
 ### 2. create your testcode
 

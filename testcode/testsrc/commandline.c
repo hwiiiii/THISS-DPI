@@ -12,6 +12,11 @@ int main(int argc, char** argv)
     #endif
 
 	int i = 0;
+	if (argc == 1)
+	{
+		printf("No args\n");
+		return 0;
+	}
 	printf("argc = %d\n", argc);
 
 	printf("%d : %s\n",0, argv[0]);
@@ -22,9 +27,6 @@ int main(int argc, char** argv)
 
 	argc = 100;
 	printf("modified argc = %d\n", argc);
-    #ifdef SYISS
-    end_main();
-    #endif
 	return 0;
 }
 	

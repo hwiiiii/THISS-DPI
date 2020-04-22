@@ -3,37 +3,37 @@
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .text         00014d34  80000000  80000000  00001000  2**3
+  0 .text         00014d64  80000000  80000000  00001000  2**3
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  1 .srodata      00000004  80014d34  80014d34  00015d34  2**2
+  1 .srodata      00000004  80014d64  80014d64  00015d64  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  2 .srodata.cst8 00000018  80014d38  80014d38  00015d38  2**3
+  2 .srodata.cst8 00000018  80014d68  80014d68  00015d68  2**3
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  3 .eh_frame     0000003c  80014d50  80014d50  00015d50  2**2
+  3 .eh_frame     0000003c  80014d80  80014d80  00015d80  2**2
                   CONTENTS, ALLOC, LOAD, READONLY, DATA
-  4 .data         000009a8  80014d90  80014d90  00015d90  2**3
+  4 .data         000009a8  80014dc0  80014dc0  00015dc0  2**3
                   CONTENTS, ALLOC, LOAD, DATA
-  5 .bss          00000110  80015738  80015738  00016738  2**2
+  5 .bss          00000110  80015768  80015768  00016768  2**2
                   ALLOC
-  6 .stack_dummy  00000400  80015848  80015848  00016738  2**2
+  6 .stack_dummy  00000400  80015878  80015878  00016768  2**2
                   CONTENTS, READONLY
-  7 .comment      00000028  00000000  00000000  00016b38  2**0
+  7 .comment      00000028  00000000  00000000  00016b68  2**0
                   CONTENTS, READONLY
-  8 .riscv.attributes 00000021  00000000  00000000  00016b60  2**0
+  8 .riscv.attributes 00000021  00000000  00000000  00016b90  2**0
                   CONTENTS, READONLY
-  9 .debug_info   00008231  00000000  00000000  00016b81  2**0
+  9 .debug_info   00008231  00000000  00000000  00016bb1  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_abbrev 00001beb  00000000  00000000  0001edb2  2**0
+ 10 .debug_abbrev 00001beb  00000000  00000000  0001ede2  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    0000fa50  00000000  00000000  0002099d  2**0
+ 11 .debug_loc    0000fa50  00000000  00000000  000209cd  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_aranges 000001d8  00000000  00000000  000303ed  2**0
+ 12 .debug_aranges 000001d8  00000000  00000000  0003041d  2**0
                   CONTENTS, READONLY, DEBUGGING
- 13 .debug_ranges 00001330  00000000  00000000  000305c5  2**0
+ 13 .debug_ranges 00001330  00000000  00000000  000305f5  2**0
                   CONTENTS, READONLY, DEBUGGING
- 14 .debug_line   00008e7a  00000000  00000000  000318f5  2**0
+ 14 .debug_line   00008e7a  00000000  00000000  00031925  2**0
                   CONTENTS, READONLY, DEBUGGING
- 15 .debug_str    000012d5  00000000  00000000  0003a76f  2**0
+ 15 .debug_str    000012d5  00000000  00000000  0003a79f  2**0
                   CONTENTS, READONLY, DEBUGGING
- 16 .debug_frame  000002c8  00000000  00000000  0003ba44  2**2
+ 16 .debug_frame  000002c8  00000000  00000000  0003ba74  2**2
                   CONTENTS, READONLY, DEBUGGING

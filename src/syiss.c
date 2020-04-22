@@ -69,7 +69,7 @@ int PA = 0;
 int main(int argc, char** argv)
 {
 	int i;
-	int target_argc_start;
+	int target_argc_start = 0;
     word dump_addr = 0;
     word dump_size = 0;
     proc_t* proc;
@@ -78,12 +78,15 @@ int main(int argc, char** argv)
 	word pc_log = 0;
 	word gpr_log = 0;
 
+
     proc = (proc_t*)malloc(sizeof(proc_t));
 
     word inst;
-	word BP = 0;
+	word BP = -1;
     word status = 0;
 	
+	word break_state = 0;
+	word key;
 	unsigned long long cnt = 0;
 
     table_head = INIT_TABLE();
@@ -151,6 +154,11 @@ int main(int argc, char** argv)
 		}
 	}
 
+	if(target_argc_start == 0)
+	{
+		target_argc_start = argc;
+	}
+
 
 	init_proc(	proc,
 				argv[1],
@@ -184,16 +192,48 @@ int main(int argc, char** argv)
 			printf(".\n");
 		if((cnt%((unsigned long long)DOT_TERM*1000))==0)
 			printf("\n%x\n",proc->PC);
+		#endif
 			
-        if((BP != 0)&&(_PC == BP))
+        if((BP != -1)&&(_PC == BP))
         {
+			break_state = 1;
+		}
+
+		if(break_state)
+		{
+			BP = -1;
+			printf("-----------------------------------\nBreak Point\n-----------------------------------\n");
+			printf("PC\t\t\t= %x\n", _PC);
+			printf("Instruction [hex]\t= 0x%x\n\n", inst);
             for(i=0 ; i<GPR_SIZE;i++)
             {
                 printf("GPR[%d]\t= %x\n", i, proc->REG_GPR[i]);
             }
-			return 0;
+			printf("-----------------------------------\nWrite Command : \n");
+			printf("0 : end program\n");
+			printf("1 : run (remove break point)\n");
+			printf("2 : set new break point\n");
+			printf("any other numbers : next pc\n");
+
+			scanf("%d", &key);
+
+			if(key == 1)
+			{
+				break_state = 0;
+				printf("-----------------------------------\nBreak Point Removed\n-----------------------------------\n");
+			}
+			if(key == 0)
+				break;
+			if(key == 2)
+			{
+				printf("Write new bread point address [0x] (lower case) : \n");
+				printf("0x");
+				scanf("%x", &key);
+				break_state = 0;
+				BP = key;
+			}
+
         }
-		#endif
 
 		if(!_IS_B)
 			_PC += 4;
@@ -240,7 +280,7 @@ int main(int argc, char** argv)
 		if((*((byte *)TARGET_STAT) & END_MASK) != 0)
 		{
 			#ifdef STATUS
-			printf("-----------------------------------\n\nmain finished\n\n-----------------------------------\n");
+			printf("-----------------------------------\nmain finished\n-----------------------------------\n");
 			#endif
 			*((byte *)TARGET_STAT) = 0;
 			break;
@@ -270,13 +310,16 @@ int main(int argc, char** argv)
 
     if(gpr_log)
     {
+        printf("-----------------------------------\nGPR\n-----------------------------------\n");
         for(i=0 ; i<GPR_SIZE;i++)
         {
             printf("GPR[%d]=%x\n", i, proc->REG_GPR[i]);
         }
         printf("Cycle # : %lld\n",cnt);
-        printf("-----------------------------------\n\nISS end\n\n-----------------------------------\n");
+        printf("-----------------------------------\nISS end\n-----------------------------------\n");
     }
+
+	//endwin();
 
 	return 0;
 }

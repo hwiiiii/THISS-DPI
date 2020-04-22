@@ -98,3 +98,8 @@ main_entry:
 	addi x10, x0, 0
 	addi x11, x0, 0
 	jal x1, main
+    /* to let simulator know program end point */
+    addi x1,x0,1
+    addi x2,x0,-1
+    sw x1, 0(x2) 
+    

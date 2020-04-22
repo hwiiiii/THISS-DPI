@@ -32,6 +32,7 @@ cd ./syiss
 ```
 make
 ```
+###### Ignore warings
 
 ***
 ***
@@ -72,8 +73,6 @@ cd ./syiss
 
  this header file is for :
   1. Passing commandline argument to program
-  2. Marking end of program
- 
  	 
  ***
 > hello.c
@@ -88,11 +87,6 @@ cd ./syiss
 >	 
 >	 	{
 >	 		printf("Hello Sung Yeon!\n");
->	 		
->	 	#ifdef SYISS
->	 	end_main();
->	 	#endif
->
 >	 		return 0;
 >	 	}
  
@@ -150,3 +144,8 @@ or
 ```
 
  You may reference any 'run' file or simply run simulator without arguments for help
+
+***
+***
+
+

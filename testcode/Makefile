@@ -1,7 +1,11 @@
+SHELL:=/bin/bash -O extglob -c
+
 TARGET	= commandline
 #TARGET	= My_JPEG
 #TARGET	= test
 #TARGET	= hello
+
+TARGET_LIST = commandline My_JPEG test hello
 
 ####################################################################
 
@@ -66,5 +70,5 @@ SYISS: $(SRCS)
 	cp $(OBJ_DIR)/$(TARGET).lst $(APP_DIR)/program.lst
 
 clean:
-	rm -f $(OBJ_DIR)/*
-	rm -f $(BIN_DIR)/*
+	rm -vf $(OBJ_DIR)/!(*.md)
+	rm -vf $(BIN_DIR)/!(*.md)

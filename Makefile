@@ -1,3 +1,4 @@
+SHELL:=/bin/bash -O extglob -c
 
 
 CC = gcc -g -Wall
@@ -47,5 +48,5 @@ $(BIN_DIR)/syiss: $(OBJS)
 /usr/lib/x86_64-linux-gnu/libelf.so.1 :
 
 clean:
-	rm -f $(OBJ_DIR)/*
-	rm -f $(BIN_DIR)/*
+	rm -vf $(OBJ_DIR)/!(*.md)
+	rm -vf $(BIN_DIR)/!(*.md)

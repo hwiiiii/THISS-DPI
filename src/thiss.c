@@ -12,7 +12,7 @@
 //      The entire notice above must be reproduced on all authorized copies.
 //
 // -------------------------------------------------------------------------------------------
-// FILE NAME       : syiss.c
+// FILE NAME       : thiss.c
 // DEPARTMENT      : Digital System Architecture Lab.
 // AUTHOR          : Kim Sung Yeon
 // AUTHOR'S EMAIL  : jkjk0411@gmail.com

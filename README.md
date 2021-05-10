@@ -1,4 +1,4 @@
-# SYISS
+# THISS - SYISS Ver.2 for RV64IM
 RISC-V Instruction Set Simulator 
 (march = rv32im / mabi = ilp32)
 

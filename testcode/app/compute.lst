@@ -1,0 +1,17 @@
+GAS LISTING compute.s 			page 1
+
+
+   1 0000 93026300 	addi t0, t1, 6;
+   2 0004 138E3300 	addi t3, t2, 3;
+   3 0008 138E3300 	addi t3, t2, 3;
+   4 000c 138E3300 	addi t3, t2, 3;
+   5 0010 138E3300 	addi t3, t2, 3;
+   6 0014 93D33340 	srai t2, t2, 3;
+   7 0018 334E7300 	xor t3, t1, t2;
+   8 001c B7900303 	lui x1, 12345;
+GAS LISTING compute.s 			page 2
+
+
+NO DEFINED SYMBOLS
+
+NO UNDEFINED SYMBOLS

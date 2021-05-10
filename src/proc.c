@@ -21,6 +21,10 @@
 // VERSION DATE         AUTHOR         DESCRIPTION
 // 1.0     2020-03-24   Kim Sung Yeon  processor source file
 //                                     This file contains ELF parsing function
+// 2.0     2021-05-10   Kim Whi Jin    processor source file for RV64IM  
+//                      Lee Ji Hye
+// CONTACT EMAIL   : whijin98@gmail.com
+//                   jihyelee317@gmail.com
 // -------------------------------------------------------------------------------------------
 // PURPOSE      : RISC-V ISS
 //--------------------------------------------------------------------------------------------
@@ -41,7 +45,7 @@
 
 
 
-int init_proc(proc_t* proc, char* filename, word pc_start)
+int init_proc(proc_t* proc, char* filename, longl pc_start)
 {
     int i;
 	int fd;
@@ -268,11 +272,13 @@ int init_proc(proc_t* proc, char* filename, word pc_start)
 
     proc->IS_Branch = 0;
 	//temporary SP
-	proc->REG_GPR[2] = 0x80000000;
+	proc->REG_GPR[2] = 0x8000000000000000;              //m
 	//temporary FP
-	proc->REG_GPR[8] = 0x80000000;
+	proc->REG_GPR[8] = 0x8000000000000000;              //m
+
 
     return 0;
+
 }
 
 

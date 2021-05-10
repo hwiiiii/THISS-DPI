@@ -1,0 +1,13 @@
+GAS LISTING add.s 			page 1
+
+
+   1              	_start:
+   2              	    .global _start
+   3 0000 B3812000 	    add x3, x1, x2
+GAS LISTING add.s 			page 2
+
+
+DEFINED SYMBOLS
+               add.s:1      .text:0000000000000000 _start
+
+NO UNDEFINED SYMBOLS

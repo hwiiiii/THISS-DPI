@@ -1,0 +1,15 @@
+GAS LISTING alu.s 			page 1
+
+
+   1 0000 9382F27F 	addi x5, x5, 2047;
+   2 0004 93003100 	addi x1, x2, 3;
+   3 0008 93019100 	addi x3, x2, 9;
+   4 000c 33821140 	sub x4, x3, x1;
+   5              	
+   6              	
+GAS LISTING alu.s 			page 2
+
+
+NO DEFINED SYMBOLS
+
+NO UNDEFINED SYMBOLS

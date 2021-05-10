@@ -19,7 +19,9 @@
 // -------------------------------------------------------------------------------------------
 // RELEASE HISTORY
 // VERSION DATE         AUTHOR         DESCRIPTION
-// 1.0     2020-03-24   Kim Sung Yeon  RISC-V Instruction Function 
+// 1.0     2020-03-24   Kim Sung Yeon  RISC-V Instruction Function
+// 2.0     2021-05-10   Lee Ji Hye     RISC-V Instruction Function RV64IM Extension  
+// CONTACT EMAIL   : jihyelee317@gmail.com
 // -------------------------------------------------------------------------------------------
 // PURPOSE      : RISC-V ISS
 //--------------------------------------------------------------------------------------------
@@ -31,15 +33,80 @@
 #include "instruction.h"
 #include "decoder.h"
 
+//64bit -> 32bit -> sign-ext -> 64bit
+
+unsigned long long  sext64(unsigned long long val64) {
+    
+    unsigned long long value = (0x00000000FFFFFFFF & val64 ) ; //32bit
+    unsigned long long mask  =  0x0000000080000000;
+    if (mask & val64)   //if sign of 32bit  = 1 (not 0)
+    {
+        value += 0xFFFFFFFF00000000;
+    }
+    return value;
+}
+
+//32bit -> sign-ext -> 64bit
+
+unsigned long long  sext32(unsigned int val32) {
+    
+    unsigned long long value = (0x00000000FFFFFFFF & val32 ) ; 
+    int mask  =  0x80000000;
+    if (mask & val32)   //if sign of 32bit  = 1 (not 0)
+    {
+        value += 0xFFFFFFFF00000000;
+    }
+    return value;
+}
+
+
+uint64_t mulhu_f(uint64_t a, uint64_t b)
+{
+  uint64_t t;
+  uint32_t y1, y2, y3;
+  uint64_t a0 = (uint32_t)a, a1 = a >> 32;
+  uint64_t b0 = (uint32_t)b, b1 = b >> 32;
+
+  t = a1*b0 + ((a0*b0) >> 32);
+  y1 = t;
+  y2 = t >> 32;
+
+  t = a0*b1 + y1;
+  y1 = t;
+
+  t = a1*b1 + y2 + (t >> 32);
+  y2 = t;
+  y3 = t >> 32;
+
+  return ((uint64_t)y3 << 32) | y2;
+}
+
+
+int64_t mulh_f(int64_t a, int64_t b)
+{
+  int negate = (a < 0) != (b < 0);
+  uint64_t res = mulhu_f(a < 0 ? -a : a, b < 0 ? -b : b);
+  return negate ? ~res + (a * b == 0) : res;
+}
+
+int64_t mulhsu_f(int64_t a, uint64_t b)
+{
+  int negate = a < 0;
+  uint64_t res = mulhu_f(a < 0 ? -a : a, b);
+  return negate ? ~res + (a * b == 0) : res;
+}
+
+//---------------------------------------------------
+
 
 //RV32I
 void _lui	(proc_t* proc, word inst)
 {
-    _RD  =   _U_IMM;
+    _RD = (s_longl)(int32_t)(_U_IMM << 12);
 }
 void _auipc	(proc_t* proc, word inst)
 {
-    _RD =   _PC + _U_IMM;
+    _RD =   _PC + (s_longl)((int32_t)_U_IMM << 12);
 }
 void _jal	(proc_t* proc, word inst)
 {
@@ -50,7 +117,7 @@ void _jal	(proc_t* proc, word inst)
 void _jalr	(proc_t* proc, word inst)
 {
     _RD  =   _PC  + 4;
-    _PC  =   (_RS1 + _I_IMM) & 0xfffffffe;
+    _PC  =   (_RS1 + _I_IMM) & 0xfffffffffffffffe;          //m
     _IS_B=   1;
 }
 
@@ -66,33 +133,33 @@ void _bne	(proc_t* proc, word inst)
 }
 void _blt	(proc_t* proc, word inst)
 {
-    _PC  =   ((s_word)_RS1 < (s_word)_RS2) ? _PC+_B_IMM : _PC+4;
+    _PC  =   ((s_longl)_RS1 < (s_longl)_RS2) ? _PC+_B_IMM : _PC+4;
     _IS_B=   1;
 }
 void _bge	(proc_t* proc, word inst)
 {
-    _PC  =   ((s_word)_RS1 >= (s_word)_RS2) ? _PC+_B_IMM : _PC+4;
+    _PC  =   ((s_longl)_RS1 >= (s_longl)_RS2) ? _PC+_B_IMM : _PC+4;
     _IS_B=   1;
 }
 void _bltu	(proc_t* proc, word inst)
 {
-    _PC  =   ((word)_RS1 < (word)_RS2) ? _PC+_B_IMM : _PC+4;
+    _PC  =   ((longl)_RS1 < (longl)_RS2) ? _PC+_B_IMM : _PC+4;
     _IS_B=   1;
 }
 void _bgeu	(proc_t* proc, word inst)
 {
-    _PC  =   ((word)_RS1 >= (word)_RS2) ? _PC+_B_IMM : _PC+4;
+    _PC  =   ((longl)_RS1 >= (longl)_RS2) ? _PC+_B_IMM : _PC+4;
     _IS_B=   1;
 }
 
-void _lb  	(proc_t* proc, word inst)
+void _lb  	(proc_t* proc, word inst)       //???
 {
-    _RD  =  (_MEM(_RS1 + _I_IMM) >> 7) * 0xFFFFFFF00  |
+    _RD  =  (_MEM(_RS1 + _I_IMM) >> 7) * 0xffffffffFFFFFFF00  |
 			_MEM(_RS1 + _I_IMM);
 }
-void _lh  	(proc_t* proc, word inst)
+void _lh  	(proc_t* proc, word inst)       //???
 {
-    _RD  =  (_MEM(_RS1 + _I_IMM+1) >> 7) * 0xFFFFF0000  |
+    _RD  =  (_MEM(_RS1 + _I_IMM+1) >> 7) * 0xffffffffFFFFF0000  |
 			_MEM(_RS1 + _I_IMM+1)   <<  8   |
             _MEM(_RS1 + _I_IMM);
 }
@@ -132,42 +199,43 @@ void _sw  	(proc_t* proc, word inst)
 
 void _addi	(proc_t* proc, word inst)
 {
-    _RD  =_RS1 + _I_IMM;
+    _RD  =_RS1 + (s_longl)_I_IMM;                                  //sign-ext imm
 }
 void _slti	(proc_t* proc, word inst)
 {
-    _RD  =   ((s_word)_RS1 < (s_word)_I_IMM) ?   1 : 0;
+    _RD  =   ((s_longl)_RS1 < (s_longl)_I_IMM) ?   1 : 0;       
 }
 void _sltiu	(proc_t* proc, word inst)
 {
-    _RD  =   ((word)_RS1 < (word)_I_IMM) ?   1 : 0;
+    _RD  =   ((longl)_RS1 < (longl)_I_IMM) ?   1 : 0;
 }
 void _xori	(proc_t* proc, word inst)
 {
-    _RD  =   _RS1 ^ _I_IMM;
+    _RD  =   _RS1 ^ (longl)_I_IMM;
 }
 void _ori 	(proc_t* proc, word inst)
 {
-    _RD  =   _RS1 | _I_IMM;
+    _RD  =   _RS1 | (longl)_I_IMM;
 }
 void _andi	(proc_t* proc, word inst)
 {
-    _RD  =   _RS1 & _I_IMM;
+    _RD  =   _RS1 & (longl)_I_IMM;
 }
 
 void _slli	(proc_t* proc, word inst)
 {
-    _RD  =   _RS1 << ((word)_I_IMM & 0x1F);
+    _RD  =   _RS1 << ((longl)_I_IMM & 0x3F);
 }
 void _srli	(proc_t* proc, word inst)
 {
-    _RD  =   _RS1 >> ((word)_I_IMM & 0x1F);
+    _RD  =   _RS1 >> ((longl)_I_IMM & 0x3F);
 }
 void _srai	(proc_t* proc, word inst)
 {
-    //In C, ">>" is arithmatic right shift WHEN LHS(of shift) is singed
-    _RD  =   (s_word)_RS1 >> ((word)_I_IMM & 0x1F);
+    _RD  =   (s_longl)_RS1 >> ((longl)_I_IMM & 0x3F);
 }
+
+//In C, ">>" is arithmatic right shift WHEN LHS(of shift) is singed
 
 void _add 	(proc_t* proc, word inst)
 {
@@ -180,15 +248,15 @@ void _sub 	(proc_t* proc, word inst)
 }
 void _sll 	(proc_t* proc, word inst)
 {
-    _RD  =   _RS1 << (_RS2 & 0x1F);
+    _RD  =   _RS1 << (_RS2 & 0x3F);
 }
 void _slt 	(proc_t* proc, word inst)
 {
-    _RD  =   ((s_word)_RS1 < (s_word)_RS2) ? 1 : 0;
+    _RD  =   ((s_longl)_RS1 < (s_longl)_RS2) ? 1 : 0;
 }
 void _sltu	(proc_t* proc, word inst)
 {
-    _RD  =   ((word)_RS1 < (word)_RS2) ? 1 : 0;
+    _RD  =   ((longl)_RS1 < (longl)_RS2) ? 1 : 0;
 }
 void _xor 	(proc_t* proc, word inst)
 {
@@ -196,11 +264,11 @@ void _xor 	(proc_t* proc, word inst)
 }
 void _srl 	(proc_t* proc, word inst)
 {
-    _RD  =   _RS1 >> (_RS2 & 0x1F);
+    _RD  =   _RS1 >> (_RS2 & 0x3F);
 }
 void _sra 	(proc_t* proc, word inst)
 {
-    _RD  =   (s_word)_RS1 >> (word)(_RS2 & 0x1F);
+    _RD  =   (s_longl)_RS1 >> (longl)(_RS2 & 0x3F);
 }
 void _or  	(proc_t* proc, word inst)
 {
@@ -268,36 +336,106 @@ void _csrrci 	(proc_t* proc, word inst)
 }
 
 //rv32m
+
 void _mul    	(proc_t* proc, word inst)
 {
     _RD  =   _RS1 * _RS2;
 }
 void _mulh   	(proc_t* proc, word inst)
 {
-    _RD  =   ((int64_t)(s_word)_RS1 * (int64_t)(s_word)_RS2) >>  32;
+    _RD = mulh_f(_RS1, _RS2);
 }
 void _mulhsu 	(proc_t* proc, word inst)
 {
-    _RD  =   ((int64_t)(s_word)_RS1 * (uint64_t)_RS2) >>  32;
+    _RD = mulhsu_f(_RS1, _RS2); 
 }
 void _mulhu  	(proc_t* proc, word inst)
 {
-    _RD  =   ((uint64_t)_RS1 * (uint64_t)_RS2) >>  32;
+    _RD = mulhu_f(_RS1, _RS2);
 }
 
 void _div    	(proc_t* proc, word inst)
 {
-    _RD  =   ((s_word)_RS1 / (s_word)_RS2);
+    _RD  =   ((s_longl)_RS1 / (s_longl)_RS2);
 }
 void _divu   	(proc_t* proc, word inst)
 {
-    _RD  =   ((word)_RS1 / (word)_RS2);
+    _RD  =   ((longl)_RS1 / (longl)_RS2);
 }
 void _rem    	(proc_t* proc, word inst)
 {
-    _RD  =   ((s_word)_RS1 % (s_word)_RS2);
+    _RD  =   ((s_longl)_RS1 % (s_longl)_RS2);
 }
 void _remu   	(proc_t* proc, word inst)
 {
-    _RD  =   (_RS1 % _RS2);
+    _RD  =   ((longl)_RS1 % (longl)_RS2);
 }
+
+
+
+//for 64bit
+
+void _addw    	(proc_t* proc, word inst)
+{
+    _RD  = sext64(_RS1 + _RS2);
+}
+void _subw    	(proc_t* proc, word inst)
+{
+    _RD = sext64(_RS1 - _RS2);
+}
+void _sllw    	(proc_t* proc, word inst)
+{
+    _RD = sext64( _RS1 << (_RS2 & 0x1F) );        //rs2[4:0] = shift amount
+}
+void _srlw    	(proc_t* proc, word inst)
+{
+    _RD = sext32((word)_RS1 >> (_RS2 & 0x1F) );           //rs1 to 32
+}
+void _sraw    	(proc_t* proc, word inst)
+{
+    _RD = sext32((s_word)_RS1 >> (_RS2 & 0x1F) );       //rs1 to 32
+}
+
+
+
+void _mulw    	(proc_t* proc, word inst)
+{
+    _RD  =   sext64( _RS1 * _RS2 );                            
+}
+void _divw    	(proc_t* proc, word inst)       
+{
+    _RD  =   sext32( ((s_word)_RS1 / (s_word)_RS2) );
+}
+void _divuw    	(proc_t* proc, word inst)
+{
+    _RD  =  sext32( ((word)_RS1 / (word)_RS2) );
+}
+void _remw    	(proc_t* proc, word inst)
+{
+    _RD  = sext32(  ((s_word)_RS1 % (s_word)_RS2) );
+}
+void _remuw    	(proc_t* proc, word inst)
+{
+    _RD  = sext32(  ((word)_RS1 % (word)_RS2) );
+}
+
+
+
+void _addiw    	(proc_t* proc, word inst)
+{
+    _RD  = sext64( _RS1 + (s_longl)_I_IMM) ;          
+}
+void _slliw    	(proc_t* proc, word inst) 
+{
+    _RD  =  sext32( _RS1 << ((longl)_I_IMM & 0x3F) );
+}
+void _srliw    	(proc_t* proc, word inst)
+{
+    _RD  =  sext32( (word)_RS1 >> ((longl)_I_IMM & 0x3F) );   //rs1 to 32
+}
+void _sraiw    	(proc_t* proc, word inst)
+{
+    _RD  =  sext32( (s_word)_RS1 >> ((longl)_I_IMM & 0x3F) ); //rs1 to 32
+}
+
+

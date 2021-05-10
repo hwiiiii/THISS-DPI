@@ -1,2 +1,2 @@
-./bin/syiss ./testcode/app/program.bin -dump_addr=49914 -dump_size=734e 
+./bin/thiss ./testcode/app/program.bin -dump_addr=49914 -dump_size=734e 
 

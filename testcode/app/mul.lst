@@ -1,0 +1,11 @@
+GAS LISTING mul.s 			page 1
+
+
+   1 0000 BB837302 	mulw t2, t2, t2
+   2 0004 B3137302 	mulh t2, t1, t2
+GAS LISTING mul.s 			page 2
+
+
+NO DEFINED SYMBOLS
+
+NO UNDEFINED SYMBOLS

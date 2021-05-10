@@ -1,0 +1,13 @@
+GAS LISTING test28.s 			page 1
+
+
+   1 0000 B3904102 	mulh x1, x3, x4;
+   2 0004 B3A04102 	mulhsu x1, x3, x4;
+   3 0008 B3B04102 	mulhu x1, x3, x4;
+   4              	
+GAS LISTING test28.s 			page 2
+
+
+NO DEFINED SYMBOLS
+
+NO UNDEFINED SYMBOLS

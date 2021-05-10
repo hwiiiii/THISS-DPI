@@ -1,1 +1,1 @@
-./bin/syiss ./testcode/app/program.bin -R -A 1 2 3 4aaaaa
+./bin/thiss ./testcode/app/mul.out -R -A 1 2 3 4aaaaa

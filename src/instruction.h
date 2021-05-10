@@ -20,6 +20,8 @@
 // RELEASE HISTORY
 // VERSION DATE         AUTHOR         DESCRIPTION
 // 1.0     2020-03-24   Kim Sung Yeon  RISC-V Instruction Function Header File
+// 2.0     2021-05-10   Lee Ji Hye     RISC-V Instruction Function Header File for RV64IM Extension  
+// CONTACT EMAIL   : jihyelee317@gmail.com
 // -------------------------------------------------------------------------------------------
 // PURPOSE      : RISC-V ISS
 //--------------------------------------------------------------------------------------------
@@ -93,7 +95,7 @@ void _mulh   	(proc_t* proc, word inst);
 void _mulhsu 	(proc_t* proc, word inst);
 void _mulhu  	(proc_t* proc, word inst);
 
-void _div   	    (proc_t* proc, word inst);
+void _div   	(proc_t* proc, word inst);
 void _divu   	(proc_t* proc, word inst);
 void _rem    	(proc_t* proc, word inst);
 void _remu   	(proc_t* proc, word inst);
@@ -112,6 +114,24 @@ void _amomin_w	(proc_t* proc, word inst);
 void _amomax_w	(proc_t* proc, word inst);
 void _amominu_w	(proc_t* proc, word inst);
 void _amomaxu_w	(proc_t* proc, word inst);
+
+//for RV64IM
+void _addw    	(proc_t* proc, word inst);
+void _subw    	(proc_t* proc, word inst);
+void _sllw    	(proc_t* proc, word inst);
+void _srlw    	(proc_t* proc, word inst);
+void _sraw    	(proc_t* proc, word inst);
+
+void _mulw    	(proc_t* proc, word inst);
+void _divw    	(proc_t* proc, word inst);
+void _divuw    	(proc_t* proc, word inst);
+void _remw    	(proc_t* proc, word inst);
+void _remuw    	(proc_t* proc, word inst);
+
+void _addiw    	(proc_t* proc, word inst);
+void _slliw    	(proc_t* proc, word inst);
+void _srliw    	(proc_t* proc, word inst);
+void _sraiw    	(proc_t* proc, word inst);
 
 
 #endif

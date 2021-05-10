@@ -20,6 +20,8 @@
 // RELEASE HISTORY
 // VERSION DATE         AUTHOR         DESCRIPTION
 // 1.0     2020-03-24   Kim Sung Yeon  decoder source file
+// 2.0     2021-05-10   Kim Whi Jin    decoder source file for RV64IM  
+// CONTACT EMAIL   : whijin98@gmail.com
 // -------------------------------------------------------------------------------------------
 // PURPOSE      : RISC-V ISS
 //--------------------------------------------------------------------------------------------
@@ -95,7 +97,21 @@ void inst_exe(proc_t * proc, word inst)
 			
 		case _AUIPC			: _auipc	    (proc, inst); break;
 		//case _OP_IMM_32		:
-
+		case _OP_IMM_32		:       //I type word instruction
+			switch(_FUNCT3)
+			{
+				case 0	:	_addiw	    (proc, inst); break;
+				case 1	:	_slliw	    (proc, inst); break;
+				case 5	:	
+					switch(_FUNCT7)
+					{
+						case 0	:	_srliw	    (proc, inst); break;
+						case 32	:	_sraiw	    (proc, inst); break;
+						default	:	printf("unrecognized OP_IMM_32 instruction\n"); exit(1);
+					}break;
+				default	:	printf("unrecognized OP_IMM_32 instruction\n"); exit(1);
+			}break;
+	
 
 		case _STORE			:
 			switch(_FUNCT3)
@@ -108,7 +124,7 @@ void inst_exe(proc_t * proc, word inst)
 		//case _STORE_FP		:
 		//case _custom_1	:
 		//case _AMO			:
-		case _OP			:
+		case _OP			:    //R format
 			switch(_FUNCT7)
 			{
 				case 0	:
@@ -148,7 +164,36 @@ void inst_exe(proc_t * proc, word inst)
 			}break;
 	
 		case _LUI			: _lui		(proc, inst); break;
-		//case _OP_32			:
+    	case _OP_32			:    //R type word instruction
+			switch(_FUNCT7)
+			{
+				case 0	:
+					switch(_FUNCT3)
+					{
+						case 0	:	_addw 	    (proc, inst); break;
+						case 1	:	_sllw 	    (proc, inst); break;
+						case 5	:	_srlw	    (proc, inst); break;
+					default	:	printf("unrecognized OP_32_0 instruction\n"); exit(1);
+					}break;
+				case 1	:
+					switch(_FUNCT3)
+					{
+						case 0	:	_mulw    	(proc, inst); break;
+						case 4	:	_divw   	(proc, inst); break;
+						case 5	:	_divuw   	(proc, inst); break;
+						case 6	:	_remw    	(proc, inst); break;
+						case 7	:	_remuw   	(proc, inst); break;
+						default	:	printf("unrecognized OP_32_1 instruction\n"); exit(1);
+					}break;
+				case 32	:
+					switch(_FUNCT3)
+					{
+						case 0	:	_subw 	    (proc, inst); break;
+						case 5	:	_sraw 	    (proc, inst); break;
+						default	:	printf("unrecognized OP_32_2 instruction\n"); exit(1);
+					}break;
+				default	:	printf("unrecognized OP_32 instruction\n"); exit(1);
+			}break;
 
 		//case _MADD			:
 		//case _MSUB			:

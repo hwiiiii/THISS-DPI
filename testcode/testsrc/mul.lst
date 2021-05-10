@@ -1,0 +1,17 @@
+GAS LISTING mul.s 			page 1
+
+
+   1              	  #include <stdio.h>
+   2              	
+   3              	  #ifdef SYISS
+   4              	  #include "../src/common.h"
+   5              	  #endif
+   6              	
+   7 0000 B3837302 	mul t2, t2, t2
+   8 0004 B3037302 	mul t2, t1, t2
+GAS LISTING mul.s 			page 2
+
+
+NO DEFINED SYMBOLS
+
+NO UNDEFINED SYMBOLS

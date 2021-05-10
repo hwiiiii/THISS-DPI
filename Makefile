@@ -15,12 +15,12 @@ BIN_DIR = $(WORK_DIR)/bin
 #		$(OBJ_DIR)/syiss.o \
 #		/usr/lib/x86_64-linux-gnu/libelf.so.1
 
-OBJS =	$(SRC_DIR)/syiss.c \
+OBJS =	$(SRC_DIR)/thiss.c \
 		$(SRC_DIR)/handler.c \
 		$(SRC_DIR)/instruction.c \
 		$(SRC_DIR)/proc.c
 
-$(BIN_DIR)/syiss: $(OBJS)
+$(BIN_DIR)/thiss: $(OBJS)
 	#$(CC) -o $(BIN_DIR)/syiss $(OBJS)
 	$(CC) -o $(BIN_DIR)/syiss -Wl,"-Map=$(OBJ_DIR)/syiss.map" $(OBJS) -lelf
 	#objdump -h $(BIN_DIR)/syiss > $(BASE_DIR)$(TARGET).section

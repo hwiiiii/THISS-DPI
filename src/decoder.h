@@ -20,6 +20,8 @@
 // RELEASE HISTORY
 // VERSION DATE         AUTHOR         DESCRIPTION
 // 1.0     2020-03-24   Kim Sung Yeon  decoder header file
+// 2.0     2021-05-10   Kim Whi Jin    decoder header file for RV64IM  
+// CONTACT EMAIL   : whijin98@gmail.com
 // -------------------------------------------------------------------------------------------
 // PURPOSE      : RISC-V ISS
 //--------------------------------------------------------------------------------------------
@@ -56,9 +58,9 @@
 						((inst)>>7	& 0x1	)	<<	11			|	\
 						((inst)>>25	& 0x3F	)	<<	5			|	\
 						((inst)>>8  & 0xF	)	<<	1			)
-#define _U_IMM		   (((inst)>>31	& 0x1	)	<<	31        	|	\
-						((inst)>>20 & 0x7FF )	<<	20			|	\
-						((inst)>>12	& 0xFF	)	<<	12			)
+#define _U_IMM		   (((inst)>>31	& 0x1	)	<<	19        	|	\
+						((inst)>>20 & 0x7FF )	<<	8			|	\
+						((inst)>>12	& 0xFF	)				)
 #define _J_IMM		   (((inst)>>31	& 0x1	)	* 	0xFFF00000	|	\
 						((inst)>>12 & 0xFF	)	<<	12			|	\
 						((inst)>>20	& 0x1 	)	<<	11			|	\
@@ -70,17 +72,25 @@
 //#define	_LOAD_FP			0x07
 //#define	_custom_0		0x0B
 //#define	_MISC_MEM		0x0F    //fence?
-#define	_OP_IMM			0x13
-#define	_AUIPC			0x17
-//#define	_OP_IMM_32		0x1B    //for 64
+
+
+
 
 #define	_STORE			0x23
 //#define	_STORE_FP		0x27
 //#define	_custom_1		0x2B
 //#define	_AMO				0x2F
-#define	_OP				0x33
-#define	_LUI				0x37
-//#define	_OP_32			0x3B    //for 64
+
+
+
+#define	_OP				0x33    // 64 bit R type inst
+#define	_OP_32			0x3B    // 64 bit R type word inst
+
+#define	_OP_IMM			0x13    // 64 bit I type inst
+#define	_OP_IMM_32		0x1B    // 64 bit I type word inst
+
+#define	_LUI		    0x37    
+#define	_AUIPC			0x17
 
 //#define	_MADD			0x43    //32 F or D
 //#define	_MSUB			0x47    //32 F or D

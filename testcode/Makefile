@@ -1,9 +1,9 @@
 SHELL:=/bin/bash -O extglob -c
 
-TARGET	= commandline
+#TARGET	= commandline
 #TARGET	= My_JPEG
 #TARGET	= test
-#TARGET	= hello
+TARGET	= arith
 
 TARGET_LIST = commandline My_JPEG test hello
 
@@ -12,7 +12,7 @@ TARGET_LIST = commandline My_JPEG test hello
 ISA = 32
 COMPILE_OPTION = -march=rv$(ISA)im -mabi=ilp$(ISA)
 
-COMPILER = ./toolchain/bin/riscv64-unknown-elf
+COMPILER = riscv64-unknown-elf
 
 
 LINKSCRIPT = link

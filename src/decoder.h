@@ -46,7 +46,9 @@
 #define _IS_B           ((proc->IS_Branch))
 
 //Immediate
-#define _I_IMM		   (((inst)>>31	& 0x1	)	*	0xFFFFF800	|	\
+#define _I_IMM   (((inst)>>20) & 0x00000fff)
+
+//#define _I_IMM		   (((inst)>>31	& 0x1	)	*	0xFFFFF800	|	\
 						((inst)>>25	& 0x3F	)	<<	5			|	\
 						((inst)>>21	& 0xF	)	<<	1			|	\
 						((inst)>>20 & 0x1	)	<<	0			)
@@ -58,9 +60,12 @@
 						((inst)>>7	& 0x1	)	<<	11			|	\
 						((inst)>>25	& 0x3F	)	<<	5			|	\
 						((inst)>>8  & 0xF	)	<<	1			)
-#define _U_IMM		   (((inst)>>31	& 0x1	)	<<	19        	|	\
+//#define _U_IMM		   (((inst)>>31	& 0x1	)	<<	19        	|	\
 						((inst)>>20 & 0x7FF )	<<	8			|	\
 						((inst)>>12	& 0xFF	)				)
+#define _U_IMM  (((inst)>>12) & 0x000fffff)
+
+
 #define _J_IMM		   (((inst)>>31	& 0x1	)	* 	0xFFF00000	|	\
 						((inst)>>12 & 0xFF	)	<<	12			|	\
 						((inst)>>20	& 0x1 	)	<<	11			|	\

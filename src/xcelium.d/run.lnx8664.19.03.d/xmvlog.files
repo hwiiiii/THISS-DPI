@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/alu_tb.sv
+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/rtl/alu_decoder.v
+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/rtl/reg_file.v
+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/rtl/alutop.v
+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/rtl/alu_ctrl.v
+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/rtl/alu_ver2.v
+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/rtl/alu_reg.v

@@ -1,0 +1,91 @@
+$date
+    May 19, 2021  18:56:00
+$end
+$version
+    TOOL:	xmsim(64)	19.03-s009
+$end
+$timescale
+    1 ns
+$end
+
+$scope module alu_tb $end
+
+$scope module x_reg_file $end
+$var parameter 32 !    DWIDTH $end
+$upscope $end
+
+
+$scope module alutop $end
+
+$scope module ALU1 $end
+$var parameter  5 "    ADD $end
+$var parameter  5 #    ADDW $end
+$var parameter  5 $    SUB $end
+$var parameter  5 %    SUBW $end
+$var parameter  5 &    SLL $end
+$var parameter  5 '    SLLW $end
+$var parameter  5 (    SLT $end
+$var parameter  5 )    SLTU $end
+$var parameter  5 *    XOR $end
+$var parameter  5 +    SRL $end
+$var parameter  5 ,    SRLW $end
+$var parameter  5 -    SRA $end
+$var parameter  5 .    SRAW $end
+$var parameter  5 /    OR $end
+$var parameter  5 0    AND $end
+$var parameter  5 1    ADDI $end
+$var parameter  5 2    ADDIW $end
+$var parameter  5 3    SLTI $end
+$var parameter  5 4    SLTIU $end
+$var parameter  5 5    XORI $end
+$var parameter  5 6    ORI $end
+$var parameter  5 7    ANDI $end
+$var parameter  5 8    SLLI $end
+$var parameter  5 9    SLLIW $end
+$var parameter  5 :    SRLI $end
+$var parameter  5 ;    SRLIW $end
+$var parameter  5 <    SRAI $end
+$var parameter  5 =    SRAIW $end
+$var parameter  5 >    LUI $end
+$var parameter  5 ?    AUIPC $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+#20
+$dumpvars
+b11101 ?
+b11100 >
+b11011 =
+b11010 <
+b11001 ;
+b11000 :
+b10111 9
+b10110 8
+b10101 7
+b10100 6
+b10011 5
+b10010 4
+b10001 3
+b10000 2
+b1111 1
+b1110 0
+b1101 /
+b1100 .
+b1011 -
+b1010 ,
+b1001 +
+b1000 *
+b111 )
+b110 (
+b101 '
+b100 &
+b11 %
+b10 $
+b1 #
+b0 "
+b1000000 !
+$end

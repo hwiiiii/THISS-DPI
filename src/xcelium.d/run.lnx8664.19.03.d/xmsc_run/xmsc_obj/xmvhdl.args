@@ -1,0 +1,4 @@
+-nocopyright
+-cdslib /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/./xcelium.d/run.lnx8664.19.03.d/cdsrun.lib
+-hdlvar /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/./xcelium.d/run.lnx8664.19.03.d/hdlrun.var
+-work worklib

@@ -1,0 +1,6 @@
+xmsc: -nocopyright -COMPILEONLY -cdslib /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/./xcelium.d/run.lnx8664.19.03.d/cdsrun.lib -hdlvar /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/./xcelium.d/run.lnx8664.19.03.d/hdlrun.var -work worklib
+xmvlog: -nocopyright -cdslib /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/./xcelium.d/run.lnx8664.19.03.d/cdsrun.lib -hdlvar /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/./xcelium.d/run.lnx8664.19.03.d/hdlrun.var -work worklib
+xmvhdl: -nocopyright -cdslib /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/./xcelium.d/run.lnx8664.19.03.d/cdsrun.lib -hdlvar /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/./xcelium.d/run.lnx8664.19.03.d/hdlrun.var -work worklib
+xmelab: -nocopyright -cdslib /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/./xcelium.d/run.lnx8664.19.03.d/cdsrun.lib -hdlvar /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/./xcelium.d/run.lnx8664.19.03.d/hdlrun.var -work worklib
+simplus: +tb_rc_dir+./xcelium.d/run.lnx8664.19.03.d/xmsc_run +tb_run_dir+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src +tb_trans_record
+vspsim: -nocopyright

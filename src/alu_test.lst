@@ -1,0 +1,46 @@
+GAS LISTING alu_test.s 			page 1
+
+
+   1 0000 93820200 	addi x5, x5, 0
+   2 0004 1303F37F 	addi x6, x6, 2047
+   3 0008 93831300 	addi x7, x7, 1
+   4 000c 130E0E00 	addi x28, x28, 0
+   5 0010 938E2E00 	addi x29, x29, 2
+   6 0014 130FFF07 	addi x30, x30, 127
+   7 0018 938FEFFF 	addi x31, x31, -2
+   8 001c B3027300 	add x5, x6, x7
+   9 0020 BB027300 	addw x5, x6, x7
+  10 0024 B3027340 	sub x5, x6, x7
+  11 0028 BB027340 	subw x5, x6, x7
+  12 002c 331EDF01 	sll x28, x30, x29
+  13 0030 3B1EDF01 	sllw x28, x30, x29
+  14 0034 B322FF01 	slt x5, x30, x31
+  15 0038 B332FF01 	sltu x5, x30, x31
+  16 003c 334EFF01 	xor x28, x30, x31
+  17 0040 33DEDF01 	srl x28, x31, x29
+  18 0044 3BDEDF01 	srlw x28, x31, x29
+  19 0048 33DEDF41 	sra x28, x31, x29
+  20 004c 3BDEDF41 	sraw x28, x31, x29
+  21 0050 336EFF01 	or x28, x30, x31
+  22 0054 337EFF01 	and x28, x30, x31
+  23 0058 93821200 	addi x5, x5, 1
+  24 005c 9B82F2FF 	addiw x5, x5, -1
+  25 0060 9322EFFF 	slti x5, x30, -2
+  26 0064 9332EFFF 	sltiu x5, x30, -2
+  27 0068 134E7F00 	xori x28, x30, 7
+  28 006c 136E7F00 	ori x28, x30, 7
+  29 0070 137E7F00 	andi x28, x30, 7
+  30 0074 131E2F00 	slli x28, x30, 2
+  31 0078 1B1E2F00 	slliw x28, x30, 2
+  32 007c 13DE2F00 	srli x28, x31, 2
+  33 0080 1BDE2F00 	srliw x28, x31, 2
+  34 0084 13DE2F40 	srai x28, x31, 2
+  35 0088 1BDE2F40 	sraiw x28, x31, 2
+  36 008c B7020800 	lui x5, 128
+  37 0090 97020800 	auipc x5, 128
+GAS LISTING alu_test.s 			page 2
+
+
+NO DEFINED SYMBOLS
+
+NO UNDEFINED SYMBOLS

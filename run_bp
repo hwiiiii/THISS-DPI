@@ -1,1 +1,1 @@
-./bin/thiss ./testcode/app/test0504.out -R -bp_addr=00000000 
+./bin/syiss ./src/alu_test.out -R -bp_addr=00000000 

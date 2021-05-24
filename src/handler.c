@@ -224,7 +224,7 @@ void inst_exe(proc_t * proc, word inst)
 			break;
 		//case _reserved_2	:
 		//case _custom_3	:
-        default             : printf("unrecognized at all instruction\n"); exit(1);
+        default             : printf("unrecognized at all instruction\n"); exit(1); 
 	}
 
 	proc->REG_GPR[0] = 0;

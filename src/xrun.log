@@ -1,0 +1,98 @@
+xrun(64): 19.03-s009: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	19.03-s009: Started on May 24, 2021 at 16:22:25 KST
+xrun
+	-f alu_rtl.f
+		./alu_tb.sv
+		./handler.c
+		./instruction.c
+		./proc.c
+		./thissmain.c
+		../rtl/alu_decoder.v
+		../rtl/reg_file.v
+		../rtl/alutop.v
+		../rtl/alu_ctrl.v
+		../rtl/alu_ver2.v
+		../rtl/alu_reg.v
+$CDSROOT = /tools/EDA/cadence/xcelium
+$TESTDIR = /home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src
+
+TOOL:	xmsc(64)	19.03-s009
+xmsc cc parameters: 
+	$CDSROOT/tools/cdsgcc/gcc/6.3/bin/gcc
+	-I$CDSROOT/tools/include
+	-I$CDSROOT/tools/inca/include 
+	-DXMSC
+	-DNCSC
+	-fPIC
+	-D_GLIBCXX_USE_CXX11_ABI=0 -c
+	-x c  -Wall
+
+make: `xcelium.d/run.lnx8664.19.03.d/xmsc_run/xmsc_obj/handler_0.o'는 이미 갱신되었습니다.
+
+make: `xcelium.d/run.lnx8664.19.03.d/xmsc_run/xmsc_obj/instruction_0.o'는 이미 갱신되었습니다.
+
+make: `xcelium.d/run.lnx8664.19.03.d/xmsc_run/xmsc_obj/proc_0.o'는 이미 갱신되었습니다.
+
+xmsc: compiling $TESTDIR/./thissmain.c
+
+In file included from $TESTDIR/./proc.h:33:0,
+                 from $TESTDIR/./thissmain.c:8:
+$TESTDIR/./decoder.h:51:1: warning: multi-line comment [-Wcomment]
+ //#define _I_IMM     (((inst)>>31 & 0x1 ) * 0xFFFFF800 | \
+ ^
+$TESTDIR/./decoder.h:63:1: warning: multi-line comment [-Wcomment]
+ //#define _U_IMM     (((inst)>>31 & 0x1 ) << 19         | \
+ ^
+$TESTDIR/./thissmain.c:44:10: warning: return type of 'main' is not 'int' [-Wmain]
+ long int main(long int rd_data_1, long int rd_data_2, longl pc)   //(int argc, char** argv)/////////////////////////////////////////////////////////////////////////////////////
+          ^~~~
+$TESTDIR/./thissmain.c:44:10: warning: first argument of 'main' should be 'int' [-Wmain]
+$TESTDIR/./thissmain.c:44:10: warning: second argument of 'main' should be 'char **' [-Wmain]
+$TESTDIR/./thissmain.c:44:10: warning: third argument of 'main' should probably be 'char **' [-Wmain]
+$TESTDIR/./thissmain.c: In function 'main':
+$TESTDIR/./thissmain.c:81:28: warning: format '%d' expects argument of type 'int', but argument 2 has type 'longl {aka long unsigned int}' [-Wformat=]
+     printf("instnum=\t\t  %d\t       GPR[%d]=%16lx\n",_PC/4+1,  _F_RD, _RD);
+                            ^
+$TESTDIR/./thissmain.c:65:21: warning: unused variable 'cnt' [-Wunused-variable]
+  unsigned long long cnt = 0;
+                     ^~~
+$TESTDIR/./thissmain.c:64:7: warning: unused variable 'key' [-Wunused-variable]
+  word key;
+       ^~~
+$TESTDIR/./thissmain.c:63:7: warning: unused variable 'break_state' [-Wunused-variable]
+  word break_state = 0;
+       ^~~~~~~~~~~
+$TESTDIR/./thissmain.c:61:10: warning: unused variable 'status' [-Wunused-variable]
+     word status = 0;
+          ^~~~~~
+$TESTDIR/./thissmain.c:60:7: warning: variable 'BP' set but not used [-Wunused-but-set-variable]
+  word BP = 0;
+       ^~
+$TESTDIR/./thissmain.c:54:8: warning: unused variable 'gpr_log' [-Wunused-variable]
+  word  gpr_log = 0;
+        ^~~~~~~
+$TESTDIR/./thissmain.c:53:8: warning: unused variable 'pc_log' [-Wunused-variable]
+  word  pc_log = 0;
+        ^~~~~~
+$TESTDIR/./thissmain.c:52:8: warning: unused variable 'pc_start' [-Wunused-variable]
+  longl pc_start = 0;
+        ^~~~~~~~
+$TESTDIR/./thissmain.c:49:10: warning: unused variable 'dump_size' [-Wunused-variable]
+     word dump_size = 0;
+          ^~~~~~~~~
+$TESTDIR/./thissmain.c:48:10: warning: unused variable 'dump_addr' [-Wunused-variable]
+     word dump_addr = 0;
+          ^~~~~~~~~
+$TESTDIR/./thissmain.c:47:6: warning: unused variable 'target_argc_start' [-Wunused-variable]
+  int target_argc_start = 0;
+      ^~~~~~~~~~~~~~~~~
+$TESTDIR/./thissmain.c:46:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+
+building library run.so
+
+Loading snapshot worklib.alu_tb:sv .................... Done
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /tools/EDA/cadence/xcelium/tools/xcelium/files/xmsimrc
+xcelium> run

@@ -59,6 +59,37 @@ unsigned long long  sext32(unsigned int val32) {
     return value;
 }
 
+/////////////////////////////////////////////////////////////
+
+
+
+//12bit i_imm -> sign-ext -> 64bit
+
+signed long long  imm_sext12(unsigned int val12) {
+    
+    signed long long value = (0x0000000000000FFF & val12 ) ; 
+    int mask  =  0x800;
+    if (mask & val12)   //if sign of 12bit  = 1 (not 0)
+    {
+        value += 0xFFFFFFFFFFFFF000;
+    }
+    return value;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////////
 
 uint64_t mulhu_f(uint64_t a, uint64_t b)
 {
@@ -102,7 +133,8 @@ int64_t mulhsu_f(int64_t a, uint64_t b)
 //RV32I
 void _lui	(proc_t* proc, word inst)
 {
-    _RD = (s_longl)(int32_t)(_U_IMM << 12);
+    //_RD = (s_longl)(int32_t)(_U_IMM << 12);
+    _RD = sext32(_U_IMM << 12);
 }
 void _auipc	(proc_t* proc, word inst)
 {
@@ -199,27 +231,32 @@ void _sw  	(proc_t* proc, word inst)
 
 void _addi	(proc_t* proc, word inst)
 {
-    _RD  =_RS1 + (s_longl)_I_IMM;                                  //sign-ext imm
+    //printf((signed long long)_I_IMM); -> error
+    _RD  = _RS1 + imm_sext12(_I_IMM);            
+    //_RD  =(signed long long)_RS1 + (signed long long)_I_IMM;            
+    //_RD  = _RS1;                                  
+    //_RD  =(signed int)_RS1 + (signed int)_I_IMM;   
+    //_RD  =0xffffffffffffffff | _I_IMM;                                  
 }
 void _slti	(proc_t* proc, word inst)
 {
-    _RD  =   ((s_longl)_RS1 < (s_longl)_I_IMM) ?   1 : 0;       
+    _RD  =   ((s_longl)_RS1 < (s_longl)(imm_sext12(_I_IMM))) ?   1 : 0;       
 }
 void _sltiu	(proc_t* proc, word inst)
 {
-    _RD  =   ((longl)_RS1 < (longl)_I_IMM) ?   1 : 0;
+    _RD  =   ((longl)_RS1 < (longl)(imm_sext12(_I_IMM))) ?   1 : 0;///////////////////////////
 }
 void _xori	(proc_t* proc, word inst)
 {
-    _RD  =   _RS1 ^ (longl)_I_IMM;
+    _RD  =   _RS1 ^ imm_sext12(_I_IMM);
 }
 void _ori 	(proc_t* proc, word inst)
 {
-    _RD  =   _RS1 | (longl)_I_IMM;
+    _RD  =   _RS1 | imm_sext12(_I_IMM);
 }
 void _andi	(proc_t* proc, word inst)
 {
-    _RD  =   _RS1 & (longl)_I_IMM;
+    _RD  =   _RS1 & imm_sext12(_I_IMM);
 }
 
 void _slli	(proc_t* proc, word inst)
@@ -423,19 +460,19 @@ void _remuw    	(proc_t* proc, word inst)
 
 void _addiw    	(proc_t* proc, word inst)
 {
-    _RD  = sext64( _RS1 + (s_longl)_I_IMM) ;          
+    _RD  = sext64( _RS1 + imm_sext12(_I_IMM)) ;          
 }
 void _slliw    	(proc_t* proc, word inst) 
 {
-    _RD  =  sext32( _RS1 << ((longl)_I_IMM & 0x3F) );
+    _RD  =  sext32( _RS1 << (_I_IMM & 0x3F) );
 }
 void _srliw    	(proc_t* proc, word inst)
 {
-    _RD  =  sext32( (word)_RS1 >> ((longl)_I_IMM & 0x3F) );   //rs1 to 32
+    _RD  =  sext32( (word)_RS1 >> (_I_IMM & 0x3F) );   //rs1 to 32
 }
 void _sraiw    	(proc_t* proc, word inst)
 {
-    _RD  =  sext32( (s_word)_RS1 >> ((longl)_I_IMM & 0x3F) ); //rs1 to 32
+    _RD  =  sext32( (s_word)_RS1 >> (_I_IMM & 0x3F) ); //rs1 to 32
 }
 
 

@@ -1,0 +1,4 @@
+TOOL:	xrun(64)	19.03-s009: Started on May 17, 2021 at 18:57:41 KST
+xrun(64): 19.03-s009: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+xrun: *E,NOMOPT: You have not specified a -R (or a -r <snapshot>) option, nor have you specified a source file for compilation.
+TOOL:	xrun(64)	19.03-s009: Exiting on May 17, 2021 at 18:57:41 KST  (total: 00:00:00)

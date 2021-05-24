@@ -1,0 +1,3 @@
++tb_rc_dir+./xcelium.d/run.lnx8664.19.03.d/xmsc_run
++tb_run_dir+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src
++tb_trans_record

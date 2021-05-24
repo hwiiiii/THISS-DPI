@@ -1,0 +1,8 @@
+ 
+-DNCSC
+-DXMSC
+-D_GLIBCXX_USE_CXX11_ABI=0 -c
+-I/tools/EDA/cadence/xcelium/tools/inca/include
+-I/tools/EDA/cadence/xcelium/tools/include
+-fPIC
+-x c  -Wall

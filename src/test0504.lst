@@ -1,0 +1,20 @@
+GAS LISTING test0504.s 			page 1
+
+
+   1 0000 BB804100 	addw x1, x3, x4;
+   2 0004 BBD04100 	srlw x1, x3, x4;
+   3 0008 BBD04140 	sraw x1, x3, x4;
+   4 000c BB806202 	mulw x1, x5, x6;
+   5 0010 B3106502 	mulh x1, x10, x6;
+   6 0014 93803300 	addi x1, x7, 3;
+   7 0018 9B803300 	addiw x1, x7, 3;
+   8 001c 9BD01400 	srliw x1, x9, 1;
+   9 0020 9BD01440 	sraiw x1, x9, 1;
+  10 0024 B7000800 	lui x1, 128;
+  11 0028 97000800 	auipc x1, 128;
+GAS LISTING test0504.s 			page 2
+
+
+NO DEFINED SYMBOLS
+
+NO UNDEFINED SYMBOLS

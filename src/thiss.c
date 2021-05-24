@@ -30,7 +30,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <libelf.h>
-
+#include </home1/wjkim/dsal/CPU_CORE_DES/alu_final/sim/svdpi.h>
+ 
 #include "proc.h"
 #include "handler.h"
 #include "decoder.h"
@@ -92,9 +93,9 @@ int main(int argc, char** argv)
 	unsigned long long cnt = 0;
 
     table_head = INIT_TABLE();
+    
 
-
-    if(argc==1)
+   /* if(argc==1)
     {
         printf("no args\n");
         printf("\n\n");
@@ -114,7 +115,8 @@ int main(int argc, char** argv)
         printf("Example : ./bin/syiss ./testcode/app/program.bin -dump_addr=49914 -dump_size=734e -A 1 2 3 4aaaaaa\n");
         printf("\n-------------------------------------------\n");
         exit(1);
-    }
+    }*/
+    BP=0;
 
     for(i=2;i<argc;i++)
 	{
@@ -131,7 +133,8 @@ int main(int argc, char** argv)
 
 		//Break Point
 		else if(!strncmp("-bp_addr=",argv[i],9))
-			BP = (longl)strtol(argv[i]+9, NULL, 16);		    //[0x]          //word -> longl modified
+			BP = 0;
+//(longl)strtol(argv[i]+9, NULL, 16);		    //[0x]          //word -> longl modified
 
 		//PC log
 		else if(!strncmp("-pc_log",argv[i],7))
@@ -161,14 +164,25 @@ int main(int argc, char** argv)
 		target_argc_start = argc;
 	}
 
-
+    gpr_log=1;
 	init_proc(	proc,
-				argv[1],
+		//		argv[1],
+                "./mul.out",
 				pc_start
 				);
 
 
-	
+    int instcnt=1;
+
+    longl result(){
+    return _RD;
+    }
+    
+    int instcntout(){
+    return instcnt;
+    }
+
+
 
 	////////////////////////////////START ISS///////////////////////////
 	#ifdef STATUS
@@ -204,13 +218,16 @@ int main(int argc, char** argv)
 		if(break_state)
 		{
 			BP = -1;
-			printf("-----------------------------------\nBreak Point\n-----------------------------------\n");
-			printf("PC\t\t\t= %x\n", _PC);
-			printf("Instruction [hex]\t= 0x%x\n\n", inst);
-            for(i=0 ; i<GPR_SIZE;i++)
+//			printf("-----------------------------------\nBreak Point\n-----------------------------------\n");
+//			printf("PC\t\t\t= %x\n", _PC);
+//			printf("instcnt\t\t\t= %d\n", instcntout());
+//            printf("Instruction [hex]\t= 0x%x\n\n", inst);
+           /* for(i=0 ; i<GPR_SIZE;i++)
             {
                 printf("GPR[%d]\t= %16lx\n", i, proc->REG_GPR[i]);
-            }
+            }*/
+            printf("instnum:%d      GPR[%d]\t= %16lx\n", instcntout(),_F_RD, result());
+/*
 			printf("-----------------------------------\nWrite Command : \n");
 			printf("0 : end program\n");
 			printf("1 : run (remove break point)\n");
@@ -218,7 +235,8 @@ int main(int argc, char** argv)
 			printf("any other numbers : next pc\n");
 
 			scanf("%d", &key);
-
+*/
+            key=4;
 			if(key == 1)
 			{
 				break_state = 0;
@@ -237,8 +255,9 @@ int main(int argc, char** argv)
 
         }
 
-		if(!_IS_B)
+		if(!_IS_B){
 			_PC += 4;
+            instcnt +=1;}
 
 		_IS_B = 0;
 

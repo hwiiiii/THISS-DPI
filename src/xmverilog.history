@@ -1,0 +1,62 @@
+s1(17May2021:15:47:11):  xrun -f alu_rtl.f 
+s2(17May2021:15:48:58):  xrun -f alu_rtl.f 
+s3(17May2021:15:54:36):  xrun -f alu_rtl.f 
+s4(17May2021:15:55:51):  xrun -f alu_rtl.f 
+s5(17May2021:16:07:31):  xrun -f alu_rtl.f 
+s6(17May2021:16:08:29):  xrun -f alu_rtl.f 
+s7(17May2021:16:10:00):  xrun -f alu_rtl.f 
+s8(17May2021:16:21:55):  xrun -f alu_rtl.f 
+s9(17May2021:16:23:17):  xrun -f alu_rtl.f 
+s10(17May2021:16:25:27):  xrun -f alu_rtl.f 
+s11(17May2021:16:36:20):  xrun -f alu_rtl.f 
+s12(17May2021:16:36:42):  xrun -f alu_rtl.f 
+s13(17May2021:16:39:53):  xrun -f alu_rtl.f 
+s14(17May2021:16:43:11):  xrun -f alu_rtl.f 
+s15(17May2021:16:46:19):  xrun -f alu_rtl.f 
+s16(17May2021:16:56:41):  xrun -f alu_rtl.f 
+s17(17May2021:16:58:45):  xrun -f alu_rtl.f 
+s18(17May2021:17:00:00):  xrun -f alu_rtl.f 
+s19(17May2021:17:00:53):  xrun -f alu_rtl.f 
+s20(17May2021:17:02:44):  xrun -f alu_rtl.f 
+s21(17May2021:17:04:16):  xrun -f alu_rtl.f 
+s22(17May2021:17:04:40):  xrun -f alu_rtl.f 
+s23(17May2021:17:16:54):  xrun -f alu_rtl.f 
+s24(17May2021:17:19:42):  xrun -f alu_rtl.f 
+s25(17May2021:17:54:24):  xrun -f alu_rtl.f 
+s26(17May2021:17:56:22):  xrun -f alu_rtl.f 
+s27(17May2021:17:56:50):  xrun -f alu_rtl.f 
+s28(17May2021:17:58:34):  xrun -f alu_rtl.f 
+s29(17May2021:18:03:21):  xrun -f alu_rtl.f 
+s30(17May2021:18:04:27):  xrun -f alu_rtl.f 
+s31(17May2021:18:05:47):  xrun -f alu_rtl.f 
+s32(17May2021:18:19:45):  xrun -f alu_rtl.f 
+s33(17May2021:18:20:34):  xrun -f alu_rtl.f 
+s34(17May2021:18:21:10):  xrun -f alu_rtl.f 
+s35(17May2021:18:22:26):  xrun -f alu_rtl.f 
+s36(17May2021:18:22:53):  xrun -f alu_rtl.f 
+s37(17May2021:18:24:39):  xrun -f alu_rtl.f 
+s38(17May2021:18:31:31):  xrun -f alu_rtl.f 
+s39(17May2021:18:32:09):  xrun -f alu_rtl.f 
+s40(17May2021:18:35:22):  xrun -f alu_rtl.f 
+s41(17May2021:18:36:15):  xrun -f alu_rtl.f 
+s42(17May2021:18:39:04):  xrun -f alu_rtl.f 
+s43(17May2021:18:48:31):  xrun -f alu_rtl.f 
+s44(17May2021:18:50:47):  xrun -f alu_rtl.f 
+s45(17May2021:18:55:10):  xrun -f alu_rtl.f 
+s46(17May2021:18:57:41):  xrun -v alu_rtl.f 
+s47(17May2021:18:57:56):  xrun -v libelf.h -f alu_rtl.f 
+s48(17May2021:19:00:49):  xrun -v libelf.h -f alu_rtl.f 
+s49(17May2021:19:01:15):  xrun -f alu_rtl.f 
+s50(17May2021:19:03:21):  xrun -f alu_rtl.f 
+s51(17May2021:19:07:08):  xrun -f alu_rtl.f 
+s52(17May2021:19:07:17):  xrun -f alu_rtl.f 
+s53(17May2021:19:07:36):  xrun -f alu_rtl.f 
+s54(17May2021:19:12:03):  xrun -f alu_rtl.f 
+s55(17May2021:19:16:26):  xrun -f alu_rtl.f 
+s56(17May2021:19:26:25):  xrun -f alu_rtl.f 
+s57(17May2021:19:41:36):  xrun -f alu_rtl.f 
+s58(17May2021:19:48:30):  xrun -f alu_rtl.f 
+s59(17May2021:19:57:16):  xrun +sv -f alu_rtl.f 
+s60(17May2021:19:58:17):  ncverilog +sv -f alu_rtl.f 
+s61(17May2021:20:03:14):  ncverilog +sv -f alu_rtl.f 
+s62(17May2021:20:04:45):  ncverilog +sv -f alu_rtl.f 

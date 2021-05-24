@@ -1,0 +1,11 @@
+/tools/EDA/cadence/xcelium/tools.lnx86/inca/bin/64bit/xmsim
+Obtained 9 stack frames.
+/tools/EDA/cadence/xcelium/tools.lnx86/inca/bin/64bit/../../../lib/64bit/libcbreakpad.so(_Z13use_backtracev+0x9d) [0x7f1976f002b9]
+/tools/EDA/cadence/xcelium/tools.lnx86/inca/bin/64bit/../../../lib/64bit/libcbreakpad.so(cbpad_generate_dump_on_demand+0x66) [0x7f1976f0060c]
+xmsim() [0x14eeb42]
+xmsim(serror+0x95) [0x14eef25]
+xmsim() [0x98bd9e]
+/lib64/libpthread.so.0() [0x335f40f7e0]
+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/xcelium.d/run.lnx8664.19.03.d/librun.so(init_proc+0x4c) [0x7f196f855174]
+/home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/xcelium.d/run.lnx8664.19.03.d/librun.so(thissmain+0x4f) [0x7f196f8521eb]
+[0x48cc745]

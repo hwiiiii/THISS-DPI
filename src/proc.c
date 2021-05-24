@@ -36,7 +36,7 @@
 #include <fcntl.h>
 #include <libelf.h>
 #include <gelf.h>
-
+#include </home1/wjkim/dsal/CPU_CORE_DES/alu_final/THISS/src/svdpi.h>
 #include "proc.h"
 #include "decoder.h"
 

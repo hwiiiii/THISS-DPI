@@ -1,0 +1,12 @@
+GAS LISTING ttt.s 			page 1
+
+
+   1 0000 9B821200 	addiw x5, x5, 1
+   2 0004 9B82F2FF 	addiw x5, x5, -1
+   3 0008 9B82F207 	addiw x5, x5, 127
+GAS LISTING ttt.s 			page 2
+
+
+NO DEFINED SYMBOLS
+
+NO UNDEFINED SYMBOLS

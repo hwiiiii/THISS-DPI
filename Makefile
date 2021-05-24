@@ -15,7 +15,7 @@ BIN_DIR = $(WORK_DIR)/bin
 #		$(OBJ_DIR)/syiss.o \
 #		/usr/lib/x86_64-linux-gnu/libelf.so.1
 
-OBJS =	$(SRC_DIR)/thiss.c \
+OBJS =	$(SRC_DIR)/thissmain.c \
 		$(SRC_DIR)/handler.c \
 		$(SRC_DIR)/instruction.c \
 		$(SRC_DIR)/proc.c

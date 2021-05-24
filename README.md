@@ -31,19 +31,19 @@ sudo apt-get install libelf-dev
 
 
 ## example code
+```
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include </home1/wjkim/dsal/CPU_CORE_DES/alu_final/sim/svdpi.h>
 
-> #include <stdio.h>
-> #include <stdlib.h>
-> #include </home1/wjkim/dsal/CPU_CORE_DES/alu_final/sim/svdpi.h>
-
-> int hello() {
->     int a=1;
->     int b=3;
->     int c=a+b;
->     printf("Hello world!");
->     return c;
-> }
-
+ int hello() {
+     int a=1;
+     int b=3;
+     int c=a+b;
+     printf("Hello world!");
+     return c;
+ }
+```
 ### run simulator
 
  1. check alu_rtl.f
